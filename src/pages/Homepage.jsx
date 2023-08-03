@@ -39,10 +39,10 @@ function Homepage() {
       </div>
       <div className='s4-right'>
         <span id='s4-text'>
-          A Nectus é a comunidade que cuida do <span id="s2-hl">bem-estar e qualidade de vida através da visão integrada de saúde mental e desenvolvimento humano.</span>
+          Pessoas felizes criam <span id="s2-hl">empresas de sucesso.</span>
         </span>
         <p className='s2-text'>
-          Potencializamos jornadas pessoais e profissionais através do direcionamento assertivo e com as melhores ferramentas para te ajudar a evoluir na vida e no trabalho, além de auxiliar no processo de ativar os potenciais que já existem dentro de você.
+          Aqui, fortalecemos a saúde das empresas de forma leve e fluida. Inserimos cada negócio em uma cultura que gera ambientes produtivos, engajados e que promove a sensação de pertencimento, essencial para empresas que querem deixar a sua marca na sociedade e na vida das pessoas.
         </p>
       </div>
     </div>

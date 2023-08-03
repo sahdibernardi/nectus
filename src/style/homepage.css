@@ -100,8 +100,18 @@
 .s4-right {
   border-radius: 0px 0px 50px 50px;
   border: 1px solid #FFF;
-  background: rgba(245, 221, 194, 0.35);
+  background: rgb(245 221 194 / 0.35);
   backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: var(--nectus-purple-light);
+  height: 350px;
+  width: 280px;
 }
 
 @media screen and (min-width: 768px) {
@@ -136,6 +146,11 @@
     padding: 0px;
   }
 
+  .s2-text {
+    line-height: 1.7rem;
+    font-size: 0.8rem;
+  }
+
   .graphic-logo {
     width: 570px;
     display: flex;
@@ -158,16 +173,23 @@
 
   .s4-left {
     border-radius: 50px 50px 0px 50px;
-    width: 500px;
+    width: 446px;
     height: 446px;
   }
   
   #s4-men {
     width: 500px;
-    margin-left: 50px;
+    margin-left: 40px;
+    z-index: 2;
   }
 
   .s4-right {
     border-radius: 50px 50px 50px 0px;
+    width: 400px;
+    height: 446px;
+    backdrop-filter: none;
+    font-size: 2rem;
+    line-height: 2rem;
+    padding: 0px 50px 0px 80px;
   }
 }
