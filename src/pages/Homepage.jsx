@@ -5,6 +5,7 @@ import graphicNectusLogo from '../assets/graphic-logo.png'
 import smilingGuy from '../assets/smilingGuy.png'
 import nectusLogoGreen from '../assets/nectusLogoGreen.png'
 import smilingGirl from '../assets/smilingGirl.png'
+import ProgramCard from '../components/ProgramCard'
 
 function Homepage() {
 
@@ -86,13 +87,13 @@ function Homepage() {
         </div>
         <div className='s5-text-div'>
           <p className='s2-text'>
-            Cuidamos da saúde de pessoas e empresas com gestão inteligente.  Visionamos bem-estar e engajamento que alavancam a produtividade, gerando ambientes  de felicidade com maior senso de pertencimento. Visão integral em saúde organizacional focada em resultados e sucesso a longo prazo.
+            Promovemos a transformação da saúde organizacional integrando saúde mental, autoconhecimento e evolução humana. Direcionamos você de forma assertiva, contemplando suas necessidades e ampliando a sua visão sobre passado, presente e futuro. E isso inclui abraçar o corpo, a mente e o espírito.
           </p>
         </div>
       </div>
       <div className='s5-div'>
         <span className='s5-title'>
-          QUEM SOMOS?
+          NO QUE ACREDITAMOS?
         </span>
         <div className='s5-subtitle'>
           <div className='s5-image-bg'>
@@ -100,15 +101,40 @@ function Homepage() {
           </div>
           <div className='s5-sb-text'>
             <span id='s4-text'>
-            Estamos aqui para <span id="s2-hl">cuidar de você por completo.</span>
+            A Nectus <span id="s2-hl">faz diferente porque você é diferente.</span>
             </span>
           </div>
         </div>
         <div className='s5-text-div'>
           <p className='s2-text'>
-            Cuidamos da saúde de pessoas e empresas com gestão inteligente.  Visionamos bem-estar e engajamento que alavancam a produtividade, gerando ambientes  de felicidade com maior senso de pertencimento. Visão integral em saúde organizacional focada em resultados e sucesso a longo prazo.
+            Cada pessoa é um universo, e cuidar deste individuo é zelar pela saúde e evolução da empresa. Consciência transformada gera felicidade e impulsiona o crescimento profissional e pessoal. Com a gestão da saúde mental você leva sua organização a outro nível, conectando mentes e pessoas a construírem juntos uma organização feliz e saudável.
           </p>
         </div>
+      </div>
+    </div>
+    <div className='s6'>
+      <span className='s5-title'>
+        PROGRAMAS
+      </span>
+      <div className='s6-div'>
+        <ProgramCard 
+          title="Connects" 
+          description="Solução para colaboradores"
+          text="Saúde mental em primeiro lugar."
+          imageLink="src/assets/pgConnects.png"
+        />
+        <ProgramCard
+          title="Envolves"
+          description="Solução para empresas"
+          text="Cuidando das mentes, impulsionando resultados."
+          imageLink="src/assets/pgEnvolves.png"
+        />
+        <ProgramCard
+          title="Assertive Sessions"
+          description="Direcionamento assertivo de sessões"
+          text="Encontre a sua terapia e especialista mais adequado."
+          imageLink="src/assets/pgAssertiveSessions.png"
+        />
       </div>
     </div>
     </>
