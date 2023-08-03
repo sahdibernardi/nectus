@@ -1,0 +1,103 @@
+:root {
+  font-family: poppins;
+  line-height: 1.5;
+  font-weight: 500;
+
+  --nectus-purple: #8D55E7;
+  --nectus-purple-light: #CA53EA;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.s1 {
+  background-image: url(../assets/backgroundImage.png);
+  background-size: cover;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-shrink: 0;
+  margin: 0px;
+}
+
+.nectus-logo {
+  width: 300px;
+}
+
+.s1-headline {
+  width: 200px;
+}
+
+.down-arrow {
+  display: none;
+}
+
+.s2 {
+  font-family: poppins;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 2.3rem;
+  line-height: 2.9rem;
+  color: var(--nectus-purple-light);
+}
+
+#s2-hl {
+  font-weight: 700;
+  color: var(--nectus-purple);
+}
+
+.graphic-logo {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .s1 {
+    align-items: center;
+    height: 670px;
+  }
+
+  .nectus-logo {
+    width: 600px;
+    margin-bottom: 20px;
+  }
+  
+  .s1-headline {
+    width: 250px;
+    padding-right: 350px;
+  }
+
+  .down-arrow {
+    width: 30px;
+    padding: 20px;
+    display: flex;
+  }
+
+  .s2 {
+    height: 800px;
+  }
+
+  .graphic-logo {
+    width: 570px;
+    display: flex;
+    padding: 20px;
+  }
+
+  #graphic-left {
+    margin-left: -200px;
+    margin-bottom: -700px;
+  }
+
+  #graphic-right {
+    margin-right: -200px;
+    margin-top: -700px;
+  }
+}
