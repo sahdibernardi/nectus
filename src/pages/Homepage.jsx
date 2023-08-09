@@ -6,6 +6,7 @@ import smilingGuy from '../assets/smilingGuy.png'
 import nectusLogoGreen from '../assets/nectusLogoGreen.png'
 import smilingGirl from '../assets/smilingGirl.png'
 import ProgramCard from '../components/ProgramCard'
+import s8Woman from '../assets/s8Woman.png'
 
 function Homepage() {
 
@@ -135,6 +136,76 @@ function Homepage() {
           text="Encontre a sua terapia e especialista mais adequado."
           imageLink="src/assets/pgAssertiveSessions.png"
         />
+      </div>
+    </div>
+    <div className='s7'>
+      <div className='s7-left'>
+        <span id="s7-title">
+          Separar o pessoal do profissional?
+        </span>
+        <span id="s7-subtitle"> Impossível</span>
+        <p>
+          Existe uma crença de que é possível dividir a personalidade em duas: uma pessoal e outra profissional. Somos seres integrados, que se fragmentam ao longo do tempo. Essa fragmentação, causada pelas bagagens ao longo da vida e,  intensidade da rotina, afeta a saúde física, mental e emocional.
+        </p>
+        <p>
+          Uma pesquisa realizada pela consultoria Deloitte mostra que a exaustão tem efeitos dentro e fora do trabalho.
+        </p>
+      </div>
+      <div className='s7-right'>
+        <div className='s7-it'>
+          <div className='s7-it-number'>
+            91%
+          </div>
+          <div className='s7-it-text'>
+            <span >
+              dizem que o estresse ou frustração afeta de maneira negativa a qualidade do trabalho.
+            </span>
+          </div>
+        </div>
+        <div className='s7-it'>
+          <div className='s7-it-number'>
+            83%
+          </div>
+          <div className='s7-it-text'>
+          <span>
+            dizem que o burnout no trabalho impacta negativamente seus relacionamentos pessoais.
+          </span>
+          </div>
+        </div>
+        <div className='s7-it'>
+          <div className='s7-it-number'>
+            64%
+          </div>
+          <div className='s7-it-text'>
+          <span>
+            deles afirmam estar frequentemente estressados.
+          </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div className='s8'>
+      <div  className='s8-main-text'>
+        <span className='s8-title'>
+          A reintegração
+          <span className='s8-hl'> é a chave para a evolução como um todo.
+          </span>
+        </span>
+      </div>
+      <div className='s8-div'>
+        <div className='s8-text'>
+          <p>
+            Emoções afetam diversas áreas da vida, positiva ou negativamente . O que acontece na vida pessoal reflete na profissional e vice versa. É preciso transcender o desenvolvimento humano através da saúde integral frente às esferas do indivíduo e das empresas.
+          </p>
+          <p>
+            A Nectus une ferramentas de jornada com terapias tradicionais e holísticas para fortalecer a individualidade saudável, potencializar capacidades humanas e profissionais,  em prol de desenvolver aprendizagem e direcionar a conexão sobre si, e com o outro.
+          </p>
+        </div>
+        <div className='s8-bottom'>
+          <div className='s8-circle'>
+            <img alt="saude mental feminina" src={ s8Woman }/>
+          </div>
+        </div>
       </div>
     </div>
     </>
