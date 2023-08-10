@@ -7,6 +7,10 @@ import nectusLogoGreen from '../assets/nectusLogoGreen.png'
 import smilingGirl from '../assets/smilingGirl.png'
 import ProgramCard from '../components/ProgramCard'
 import s8Woman from '../assets/s8Woman.png'
+import chevronLeft from '../assets/chevronLeft.svg'
+import chevronLeftWhite from '../assets/chevronLeftWhite.svg'
+import vectorGroup from '../assets/VectorGroup.svg'
+import vectorGroup2 from '../assets/VectorGroup2.svg'
 
 function Homepage() {
 
@@ -203,10 +207,151 @@ function Homepage() {
         </div>
         <div className='s8-bottom'>
           <div className='s8-circle'>
-            <img alt="saude mental feminina" src={ s8Woman }/>
+            <img alt="saude mental feminina" src={ s8Woman } className='s8-image'/>
           </div>
         </div>
       </div>
+    </div>
+    <div className='s9'>
+      <div className='s9-left'>
+        <div className='s9-boxes'>
+          <div className='s9-box-up'>
+            <img alt='depression icon' src={vectorGroup} />
+            <span className='s9-title'>
+              Depressão
+            </span>
+          </div>
+          <div className='s9-box-down'>
+            <div className='s9-li'>
+              <img alt='icon' src={chevronLeftWhite}/>
+              <span className='s9-list'>
+                O Brasil lidera o ranking de casos de depressão na América Latina e o 5º país mais depressivo do mundo
+              </span>
+              <span className='s9-comment'>
+                (LHH do Grupo Adecco; OMS)
+              </span>
+            </div>
+            <div className='s9-li'>
+              <img alt='icon' src={chevronLeftWhite}/>
+              <span className='s9-list'>
+                + ou - 300 milhões de pessoas sofrem de DEPRESSÃO no mundo
+              </span>
+              <span className='s9-comment'>
+                (LHH do Grupo Adecco)
+              </span>
+            </div>
+            <div className='s9-li'>
+              <img alt='icon' src={chevronLeftWhite} />
+              <span className='s9-list'>
+                Até 2030 a depressão será a doença mais comum do mundo
+              </span>
+              <span className='s9-comment'>
+                (OMS)
+              </span>
+            </div>
+          </div>
+        </div>
+        <div className='s9-boxes'>
+          <div className='s9-box-up'>
+            <img alt='anxiety icon' src={vectorGroup2} />
+            <span className='s9-title'>
+              Ansiedade
+            </span>
+          </div>
+          <div className='s9-box-down'>
+            <div className='s9-li'>
+              <img alt='icon' src={chevronLeftWhite}/>
+              <span className='s9-list'>
+                O Brasil lidera o ranking do país mais ansioso do mundo
+              </span>
+              <span className='s9-comment'>
+                (OMS)
+              </span>
+            </div>
+            <div className='s9-li'>
+              <img alt='icon' src={chevronLeftWhite}/>
+              <span className='s9-list'>
+                É a terceira maior causa de afastamentos do trabalho no Brasil
+              </span>
+              <span className='s9-comment'>
+                (OMS)
+              </span>
+            </div>
+            <div className='s9-li'>
+              <img alt='icon' src={chevronLeftWhite} />
+              <span className='s9-list'>
+                9% dos brasileiros sofrem de ansiedade patológica, quase 20 milhões de pessoas
+              </span>
+            </div>
+            <div className='s9-li'>
+              <img alt='icon' src={chevronLeftWhite} />
+              <span className='s9-list'>
+                US$ 6 trilhões serão os custos globais com problemas psicológicos até 2030
+              </span>
+              <span className='s9-comment'>
+                (Fórum Econômico Mundial e LSE UK)
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className='s9-right'>
+        <span className='s9-r-title'>
+          Pessoas saudáveis, empresas saudáveis, <span className='s9-r-bold'>
+          organizações que crescem.</span>
+        </span>
+          <p id='s9-r-text'>
+            Pense em sua empresa como um indivíduo. Ela precisa estar saudável para viver bem, evoluir, potencializar e expandir resultados.
+          </p>
+        <div className='s9-r-box'>
+          <img alt='icon' src={chevronLeft} className='s9-icon-black'/>
+          <span className='s9-r-bold'>
+            70% do tempo os colaboradores reportam não estarem presente em reuniões
+          </span>
+          <p className='s9-font'>
+            (Mindful Leadership Institute)
+          </p>
+        </div>
+        <div className='s9-r-box'>
+          <img alt='icon' src={chevronLeft} className='s9-icon-black' />
+          <span className='s9-r-bold'>
+            12 bilhões de dias de trabalho são perdidos devido a problemas psicológicos no período de 1 ano
+          </span>
+          <p className='s9-font'>
+            (LHH do Grupo Adecco)
+          </p>
+        </div>
+        <div className='s9-r-box'>
+          <img alt='icon' src={chevronLeft} className='s9-icon-black'/>
+          <span className='s9-r-bold'>
+            Empresas que não cuidam da saúde mental das pessoas geram um custo de 1 trilhão de dólares por perda de produtividade e afastamento de colaboradores, na economia global
+          </span>
+          <p className='s9-font'>
+            (Fórum Econômico Mundial e LSE UK)
+          </p>
+        </div>
+        <div className='s9-r-box'>
+          <img alt='icon' src={chevronLeft} className='s9-icon-black'/>
+          <span className='s9-r-bold'>
+            US$ 6 trilhões serão os custos globais com problemas psicológicos até 2030
+          </span>
+          <p className='s9-font'>
+            (Fórum Econômico Mundial e LSE UK)
+          </p>
+        </div>
+      </div>
+    </div>
+    <div className='s10'>
+      <img alt='graphic nectus logo' src={ graphicNectusLogo } className='s10-graphic-logo' id="s10-logo-right"/>
+      <div className='s10-title'>
+        <span>
+          <span id="s10-hl">É possível mudar o rumo dessa história.</span> Faça parte do movimento de <span id="s10-hl-2">transformação humana global junto a agenda 2030 da ONU</span> e torne a sua empresa líder em cuidar da saúde das pessoas colaboradoras.
+        </span>
+        <button className='btn-1'>
+          Conheça agora
+        </button>
+      </div>
+      <img alt='graphic nectus logo' src={ graphicNectusLogo } className='s10-graphic-logo' id="s10-logo-left"/>
     </div>
     </>
   )
