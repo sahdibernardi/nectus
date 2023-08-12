@@ -342,7 +342,7 @@ function Homepage() {
       </div>
     </div>
     <div className='s10'>
-      <img alt='graphic nectus logo' src={ graphicNectusLogo } className='s10-graphic-logo' id="s10-logo-right"/>
+        <img alt='graphic nectus logo' src={ graphicNectusLogo } className='s10-graphic-logo' id="s10-logo-right"/>
       <div className='s10-title'>
         <span>
           <span id="s10-hl">É possível mudar o rumo dessa história.</span> Faça parte do movimento de <span id="s10-hl-2">transformação humana global junto a agenda 2030 da ONU</span> e torne a sua empresa líder em cuidar da saúde das pessoas colaboradoras.

@@ -554,7 +554,7 @@ body {
 #s10-logo-left {
   margin-right: 390px;
   margin-bottom: -100px;
-  margin-top: -30px;
+  margin-top: 30px;
 }
 
 .btn-1 {
@@ -700,7 +700,11 @@ body {
   }
 
   .s7-left {
-    text-align: left;
+    text-align: left !important;
+  }
+
+  #s7-subtitle {
+   margin-left: -174px;
   }
 
   .s7-right {
@@ -781,4 +785,40 @@ body {
     width: 400px;
     text-align: left;
   }
+
+  .s10 {
+    font-family: poppins;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 800px;
+    font-size: 2.3rem;
+    line-height: 2.9rem;
+  }
+
+  .s10-graphic-logo {
+    width: 570px;
+    display: flex;
+    padding: 20px;
+  }
+
+  #s10-logo-left {
+    margin-right: -200px;
+    margin-bottom: -900px;
+  }
+
+  #s10-logo-right {
+    margin-left: -200px;
+    margin-top: -700px;
+  }
+
+  .s10-title {
+    margin: -130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 200px;
+  }
+
+
 }
