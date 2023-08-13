@@ -569,6 +569,13 @@ body {
   width: 200px;
 }
 
+.s11 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 
 
 
@@ -819,6 +826,4 @@ body {
     align-items: center;
     padding-top: 200px;
   }
-
-
 }

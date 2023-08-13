@@ -353,6 +353,65 @@ function Homepage() {
       </div>
       <img alt='graphic nectus logo' src={ graphicNectusLogo } className='s10-graphic-logo' id="s10-logo-left"/>
     </div>
+    <div className='s11'>
+      <div className='s11-title'>
+        <span>SERVIÇOS</span>
+      </div>
+      <div className='s11-box'>
+        <div className='s11-box-left'>
+          <span className='s11-box-title'>
+            Connects
+          </span>
+          <span className='s11-box-subtitle'>
+            O match perfeito entre você e a sua melhor versão.
+          </span>
+          <button className='btn-1'>
+            Agende uma demonstração
+          </button>
+        </div>
+        <div className='s11-box-right'>
+          <p>
+            A Connects é uma ferramenta intuitiva de autoavaliação mental e emocional. Responda ao questionário para receber insights e descubra as melhores terapias e especialistas para iniciar o seu processo de evolução.
+          </p>
+        </div>
+      </div>
+      <div className='s11-box'>
+        <div className='s11-box-left'>
+          <span className='s11-box-title'>
+            Connects
+          </span>
+          <span className='s11-box-subtitle'>
+            O match perfeito entre você e a sua melhor versão.
+          </span>
+          <button className='btn-1'>
+            Agende uma demonstração
+          </button>
+        </div>
+        <div className='s11-box-right'>
+          <p>
+            A Connects é uma ferramenta intuitiva de autoavaliação mental e emocional. Responda ao questionário para receber insights e descubra as melhores terapias e especialistas para iniciar o seu processo de evolução.
+          </p>
+        </div>
+      </div>
+      <div className='s11-box'>
+        <div className='s11-box-left'>
+          <span className='s11-box-title'>
+            Connects
+          </span>
+          <span className='s11-box-subtitle'>
+            O match perfeito entre você e a sua melhor versão.
+          </span>
+          <button className='btn-1'>
+            Agende uma demonstração
+          </button>
+        </div>
+        <div className='s11-box-right'>
+          <p>
+            A Connects é uma ferramenta intuitiva de autoavaliação mental e emocional. Responda ao questionário para receber insights e descubra as melhores terapias e especialistas para iniciar o seu processo de evolução.
+          </p>
+        </div>
+      </div>
+    </div>
     </>
   )
 }
