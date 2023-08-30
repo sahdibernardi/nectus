@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unknown-property */
 import nectusLogo from '../assets/nectusLogoHorizontal.png'
 
 function Header() {
@@ -9,7 +8,7 @@ function Header() {
       </div>
       <div className='menu-icon'>
         <svg xmlns="http://www.w3.org/2000/svg" width="34" height="22" viewBox="0 0 34 22" fill="none">
-        <path d="M2 2H32M2 11H32M2 20H32" stroke="#8D55E7" stroke-width="3" stroke-linecap="round" stroke-linejoin="bevel"/>
+        <path d="M2 2H32M2 11H32M2 20H32" stroke="#8D55E7" />
         </svg>
       </div>
       <div className="hd-menu">
