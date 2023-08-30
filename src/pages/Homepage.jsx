@@ -11,6 +11,7 @@ import chevronLeft from '../assets/chevronLeft.svg'
 import chevronLeftWhite from '../assets/chevronLeftWhite.svg'
 import vectorGroup from '../assets/VectorGroup.svg'
 import vectorGroup2 from '../assets/VectorGroup2.svg'
+import Footer from '../components/Footer'
 
 function Homepage() {
 
@@ -417,6 +418,7 @@ function Homepage() {
         </div>
       </div>
     </div>
+    <Footer />
     </>
   )
 }

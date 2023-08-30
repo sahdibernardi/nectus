@@ -1,0 +1,122 @@
+:root {
+  font-family: poppins;
+  line-height: 1.5;
+  font-weight: 500;
+
+  --nectus-purple: #8D55E7;
+  --nectus-purple-light: #CA53EA;
+  --nectus-green: #93E663;
+  --black: #000;
+  --white: #FFF;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.footer {
+  background: linear-gradient(298deg, #CA53EA 0%, #8D55E7 100%);
+  min-height: 500px;
+  padding: 20px;
+}
+
+.ft-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ft-up-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ft-up-logo {
+   width: 170px;
+}
+
+.ft-subtitle {
+  font-size: 0.9rem;
+}
+
+.ft-c1-text{
+  padding: 20px 60px 0 60px;
+}
+
+.ft-up-c1 {
+  color: var(--white);
+  text-align: center;
+}
+
+.ft-up-c2 {
+  background-color: var(--white);
+  height: 1px;
+  margin: 50px 20px 0 20px;
+}
+
+.ft-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0 20px 0;
+}
+
+.ft-menu-btn {
+  color: var(--nectus-green);
+  font-weight: bold;
+  font-size: 0.8rem;
+  background-color: rgb(0 0 0 / 0) ;
+  border: none;
+  padding: 0px;
+  margin: 8px;
+}
+
+.ft-btns {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 50px 0 50px;
+}
+
+.ft-btn {
+  color: var(--nectus-purple);
+  background-color: var(--nectus-green);
+  border-radius: 89px;
+  border: var(--nectus-purple);
+  font-size: 0.8rem;
+  font-weight: 300;
+  margin: 6px;
+}
+
+.ft-up-c4 {
+  color: var(--white);
+  margin: 40px 20px 20px 20px;
+  font-size: 0.9rem;
+}
+
+.ft-c4-text {
+  margin: 30px 0 30px 0;
+}
+
+.c4-bottom {
+  margin-top: -15px;
+}
+
+.ft-down {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 20px;
+  padding: 0;
+  list-style: none;
+  font-size: 0.8rem;
+  color: var(--white);
+  height: 200px;
+}
