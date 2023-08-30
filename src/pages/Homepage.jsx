@@ -129,19 +129,19 @@ function Homepage() {
           title="Connects" 
           description="Solução para colaboradores"
           text="Saúde mental em primeiro lugar."
-          imageLink='./src/assets/connects.png'
+          imageLink='./connects.png'
         />
         <ProgramCard
           title="Envolves"
           description="Solução para empresas"
           text="Cuidando das mentes, impulsionando resultados."
-          imageLink='./src/assets/envolves.png'
+          imageLink='./envolves.png'
         />
         <ProgramCard
           title="Assertive Sessions"
           description="Direcionamento assertivo de sessões"
           text="Encontre a sua terapia e especialista mais adequado."
-          imageLink='./src/assets/assertive.png'
+          imageLink='./assertive.png'
         />
       </div>
     </div>
