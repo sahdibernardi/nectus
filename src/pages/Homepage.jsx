@@ -13,6 +13,7 @@ import vectorGroup from '../assets/VectorGroup.svg'
 import vectorGroup2 from '../assets/VectorGroup2.svg'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
+import ArticleSlider from '../components/ArticlesSlider'
 
 function Homepage() {
 
@@ -420,6 +421,10 @@ function Homepage() {
         </div>
       </div>
     </div>
+    <div className='s11-title'>
+      <span>SERVIÇOS</span>
+    </div>
+    <ArticleSlider />
     <Footer />
     </>
   )

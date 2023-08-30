@@ -1,0 +1,85 @@
+.card-slider {
+  display: flex;
+  align-items: center;
+  margin: 20px 0 20px 0;
+  overflow-x: scroll;
+}
+
+.cards-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px 0 20px;
+}
+
+.card {
+  width: 285px;
+  min-height: 500px;
+  background-color: var(--nectus-green);
+  border-radius: 50px;
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-buttons {
+  display: none;
+  justify-content: center;
+  margin-top: 10px;
+  font-size: 0.1rem;
+}
+
+.nav-button {
+  background-color: rgb(202 83 234 / 0.40);
+  border: none;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 20px;
+  font-size: 0.1rem;
+  width: 10px;
+  height: 10px;
+}
+
+.nav-button.active {
+  background-color: var(--nectus-purple);
+  border: none;
+  font-size: 0.1rem;
+  width: 10px;
+  height: 10px;
+}
+
+.ar-info {
+  padding: 20px 50px 0px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-items: space-between;
+}
+
+.ar-link {
+  color: var(--nectus-purple);
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0px 50px 0px 50px;
+}
+
+
+
+
+
+@media screen and (min-width: 768px) {
+  .card-slider {
+    overflow: hidden;
+  }
+
+  .nav-buttons {
+    display: flex;
+  }
+
+  .card-slider {
+    flex-direction: column;
+  }
+}
