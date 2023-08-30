@@ -17,7 +17,6 @@ import ArticleSlider from '../components/ArticlesSlider'
 import HPForm from '../components/HPForm'
 
 function Homepage() {
-
   return (
     <>
     <Header />
