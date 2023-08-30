@@ -40,6 +40,7 @@
   font-size: 0.1rem;
   width: 10px;
   height: 10px;
+  transition: ease-in-out 0.2s;
 }
 
 .nav-button.active {
@@ -48,6 +49,7 @@
   font-size: 0.1rem;
   width: 10px;
   height: 10px;
+  transform: scale(1.5);
 }
 
 .ar-info {

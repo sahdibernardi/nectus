@@ -158,6 +158,7 @@
   .ft-btns {
     align-items: start;
     margin: 0px;
+    text-align: left;
   }
 
   .ft-up-c4 {
