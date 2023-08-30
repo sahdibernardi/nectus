@@ -1,7 +1,7 @@
 import Social from "./Social";
 import fullLogoGreen from '../assets/fullLogoGreen.png'
 
-function Footer () {
+function Footer() {
 
  return (
   <div className='footer'>

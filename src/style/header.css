@@ -1,0 +1,84 @@
+:root {
+  font-family: poppins;
+  line-height: 1.5;
+  font-weight: 500;
+
+  --nectus-purple: #8D55E7;
+  --nectus-purple-light: #CA53EA;
+  --nectus-green: #93E663;
+  --black: #000;
+  --white: #FFF;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.header {
+  position: fixed;
+  background-color: var(--white);
+  width: 100%;
+  z-index: 100;
+  max-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -1px;
+}
+
+.menu-icon {
+  margin-right: 20px;
+}
+
+.logo {
+  max-height: 70px;
+}
+
+.hd-menu {
+  display: none;
+}
+
+.hd-item {
+  background-color: rgb(0 0 0 / 0);
+  padding: 5px;
+  margin: 10px;
+  font-size: 0.8rem;
+}
+
+.hd-btn {
+  background-color: rgb(0 0 0 / 0);
+  border: 1px solid var(--nectus-purple);
+  color: var(--nectus-purple);
+  border-radius: 100px;
+  padding: 10px;
+  margin: 5px;
+  font-size: 0.8rem;
+  height: 40px;
+}
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+
+  .header {
+    align-items: center;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .hd-menu {
+    display: flex;
+    margin-right: 50px;
+  }
+
+  .hd-img {
+    margin-left: 50px;
+  }
+}

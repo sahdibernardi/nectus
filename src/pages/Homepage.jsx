@@ -12,11 +12,13 @@ import chevronLeftWhite from '../assets/chevronLeftWhite.svg'
 import vectorGroup from '../assets/VectorGroup.svg'
 import vectorGroup2 from '../assets/VectorGroup2.svg'
 import Footer from '../components/Footer'
+import Header from '../components/Header'
 
 function Homepage() {
 
   return (
     <>
+    <Header />
     <div className="s1">
         <img alt="nectus headline" src={ headline } className='s1-headline' />
         <img alt="nectus logo" src={ nectusLogo } className='nectus-logo' />

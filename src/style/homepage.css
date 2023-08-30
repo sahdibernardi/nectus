@@ -33,6 +33,7 @@ body {
   align-items: flex-start;
   flex-shrink: 0;
   margin: 0px;
+  padding-top: 90px;
 }
 
 .nectus-logo {
