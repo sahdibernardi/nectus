@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 import nectusLogo from '../assets/nectusLogoHorizontal.png'
 
 function Header() {
