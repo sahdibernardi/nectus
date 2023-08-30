@@ -14,6 +14,7 @@ import vectorGroup2 from '../assets/VectorGroup2.svg'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
 import ArticleSlider from '../components/ArticlesSlider'
+import HPForm from '../components/HPForm'
 
 function Homepage() {
 
@@ -425,6 +426,24 @@ function Homepage() {
       <span>SERVIÇOS</span>
     </div>
     <ArticleSlider />
+    <div className='s12'>
+      <div className='s12-div'>
+        <div className='s12-text'>
+          <span>
+            <span id="s10-hl">Empresas de sucesso cuidam das pessoas colaboradoras.</span> Comece hoje.
+          </span>
+        </div>
+        <div className="s12-right-div">
+          <span className='s12-form-title'>
+            Agende uma conversa com a gente.
+          </span>
+          <HPForm />
+        </div>
+      </div>
+      <div className='s12-img-div'>
+        <img alt='graphic nectus logo' src={ graphicNectusLogo } className='s10-graphic-logo' id="s12-logo-left"/>
+      </div>
+    </div>
     <Footer />
     </>
   )

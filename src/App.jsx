@@ -3,6 +3,7 @@ import './style/homepage.css'
 import './style/footer.css'
 import './style/header.css'
 import './style/articles.css'
+import './style/forms.css'
 import Homepage from './pages/Homepage'
 
 function App() {
