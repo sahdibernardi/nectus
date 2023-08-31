@@ -92,6 +92,7 @@
   font-size: 0.8rem;
   font-weight: 300;
   margin: 6px;
+  transition: 0.5s;
 }
 
 .ft-up-c4 {
@@ -178,6 +179,13 @@
     border-radius: 89px;
     border: var(--white) 1px solid;
   }
+
+  .ft-btn:hover,
+  .ft-btn:focus {
+  box-shadow: inset 0 -3.25em 0 0 var(--nectus-purple-light);
+  border: 1px solid transparent;
+  color: var(--white);
+}
 
   .ft-menu-btn {
     color: var(--white);
