@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import nectusLogo from '../assets/nectusLogoHorizontal.png'
+import { Link } from 'react-router-dom';
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -40,15 +41,21 @@ function Header() {
           </button>
         </div>
         <div className="hd-btns">
-          <button className="hd-btn">
-            Para Pessoas Colaboradoras
-          </button>
-          <button className="hd-btn">
-            Para Profissionais
-          </button>
-          <button className="hd-btn">
-            Para Empresas
-          </button>
+          <Link to="/for-people" >
+            <button className="hd-btn">
+              Para Pessoas Colaboradoras
+            </button>
+          </Link>
+          <Link to="/for-professionals" >
+            <button className="hd-btn">
+              Para Profissionais
+            </button>
+          </Link>
+          <Link to="/for-companies" >
+            <button className="hd-btn">
+              Para Empresas
+            </button>
+          </Link>
         </div>
       </div>
     </div>

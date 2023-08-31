@@ -171,4 +171,15 @@
     justify-content: space-between;
     padding: 0 80px 0 80px;
   }
+
+  .ft-btn {
+    color: var(--white);
+    background-color: transparent;
+    border-radius: 89px;
+    border: var(--white) 1px solid;
+  }
+
+  .ft-menu-btn {
+    color: var(--white);
+  }
 }
