@@ -11,6 +11,7 @@
   align-items: center;
   flex-shrink: 0;
   margin: 0px;
+  animation: fadeIn 2s;
 }
 
 .professionals {
@@ -26,6 +27,7 @@
   align-items: center;
   flex-shrink: 0;
   margin: 0px;
+  animation: fadeIn 2s;
 }
 
 .companies {
@@ -41,6 +43,7 @@
   align-items: center;
   flex-shrink: 0;
   margin: 0px;
+  animation: fadeIn 2s;
 }
 
 .contat-div {
@@ -108,4 +111,15 @@
     height: 500px;
     font-size: 2.3rem;
   }
+}
+
+
+
+
+
+
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }

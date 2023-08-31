@@ -45,6 +45,13 @@
   padding: 5px;
   margin: 10px;
   font-size: 0.8rem;
+  transition: ease-in-out 0.5s;
+}
+
+.hd-item:hover {
+  color: var(--nectus-purple);
+  /* text-decoration: underline var(--nectus-purple); */
+  /* text-underline-offset: 8px; */
 }
 
 .hd-btn {
@@ -56,6 +63,20 @@
   margin: 5px;
   font-size: 0.8rem;
   height: 40px;
+  transition: 0.5s;
+}
+
+.hd-btn:hover,
+.hd-btn:focus {
+  box-shadow: inset 0 -3.25em 0 0 var(--nectus-purple-light);
+  border: 1px solid transparent;
+  color: var(--white);
+}
+
+.hd-itens {
+  display: flex;
+  align-items: center;
+  color: var(--nectus-black);
 }
 
 

@@ -17,9 +17,11 @@ function Header() {
   return (
     <>
     <div className="header">
-      <div className='hd-img'>
-        <img src={nectusLogo} alt="logo" className="logo"  />
-      </div>
+      <Link to="/" >
+        <div className='hd-img'>
+          <img src={nectusLogo} alt="logo" className="logo"  />
+        </div>
+      </Link>
       <div className='menu-icon' onClick={toggleMenu}>
         <svg xmlns="http://www.w3.org/2000/svg" width="34" height="22" viewBox="0 0 34 22" fill="none">
         <path d="M2 2H32M2 11H32M2 20H32" stroke="#8D55E7" />
@@ -27,18 +29,18 @@ function Header() {
       </div>
       <div className="hd-menu">
         <div className="hd-itens">
-          <button className="hd-item">
+          <a className="hd-item">
             Quem Somos
-          </button>
-          <button className="hd-item">
+          </a>
+          <a className="hd-item">
             Programas
-          </button>
-          <button className="hd-item">
+          </a>
+          <a className="hd-item">
             Serviços
-          </button>
-          <button className="hd-item">
+          </a>
+          <a className="hd-item">
             Artigos
-          </button>
+          </a>
         </div>
         <div className="hd-btns">
           <Link to="/for-people" >
