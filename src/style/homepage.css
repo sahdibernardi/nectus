@@ -692,6 +692,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: start;
+  position: relative;
+  z-index: 50;
 }
 
 .s12-img-div {

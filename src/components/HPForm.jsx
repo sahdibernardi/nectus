@@ -1,6 +1,11 @@
 function HPForm () {
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    console.log('Enviar para o Mailchimp')
+  }
+
   return(
-    <form>
+    <form className="forms" onSubmit={ handleSubmit }>
             <input type="text" placeholder="Nome" className='s12-input'/>
             <input type="text" placeholder="E-mail coorporativo" className='s12-input'/>
             <input type="text" placeholder="Telefone" className='s12-input'/>
@@ -37,7 +42,7 @@ function HPForm () {
               <option value="2">Motivo 2</option>
               <option value="3">Motivo 2</option>
             </select>
-            <button className='form-btn'>
+            <button className='form-btn' type="submit">
               Agendar Agora
             </button>
           </form>

@@ -13,6 +13,14 @@ function Header() {
     setIsMenuOpen(false);
   };
 
+  const scrollToSection = (sectionClass) => {
+    const section = document.getElementsByClassName(sectionClass);
+    if (section) {
+      console.log(section)
+      // section.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
 
   return (
     <>
@@ -29,7 +37,7 @@ function Header() {
       </div>
       <div className="hd-menu">
         <div className="hd-itens">
-          <a className="hd-item">
+          <a className="hd-item" onClick={() => scrollToSection('s5')}>
             Quem Somos
           </a>
           <a className="hd-item">

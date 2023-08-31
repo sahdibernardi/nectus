@@ -16,6 +16,7 @@
   -webkit-text-size-adjust: 100%;
 }
 
+
 input {
   background-color: var(--white);
   border: 1px solid var(--nectus-purple);
@@ -50,15 +51,24 @@ select {
 
 .form-btn {
   background-color: var(--nectus-purple);
-  border: 1px solid var(--nectus-purple);
   border-radius: 100px;
   padding: 8px;
   font-size: 0.8rem;
   color: var(--white);
-  height: 30px;
+  height: 35px;
   width: 320px;
   margin: 10px;
+  transition: ease-in-out 0.5s;
 }
+
+.form-btn:hover,
+.form-btn:focus {
+  box-shadow: inset 0 -3.25em 0 0 var(--nectus-green);
+  color: var(--nectus-purple);
+}
+
+
+
 
 
 
