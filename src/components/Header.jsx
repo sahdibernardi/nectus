@@ -1,12 +1,14 @@
 import { useState } from 'react';
 import nectusLogo from '../assets/nectusLogoHorizontal.png'
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import scrollToSection from '../utils/helpers';
 import MobileMenu from './MobileMenu';
 import closeIcon from '../assets/close-btn.svg'
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const location = useLocation();
+  const navigate = useNavigate();
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -15,6 +17,15 @@ function Header() {
   const closeMenu = () => {
     setIsMenuOpen(false);
   };
+
+  const handleClick = (section, position) => {
+    if (location.pathname !== '/') {
+      navigate('/');
+      scrollToSection(section, position);
+    } else {
+      scrollToSection(section, position);
+    }
+  }
 
   return (
     <>
@@ -34,16 +45,16 @@ function Header() {
       </div>
       <div className="hd-menu">
         <div className="hd-itens">
-          <a className="hd-item" onClick={() => scrollToSection('s5', 'end')}>
+          <a className="hd-item" onClick={() => handleClick('s5', 'end')}>
             Quem Somos
           </a>
-          <a className="hd-item" onClick={() => scrollToSection('s6', 'center')}>
+          <a className="hd-item" onClick={() => handleClick('s6', 'center')}>
             Programas
           </a>
-          <a className="hd-item" onClick={() => scrollToSection('s11', 'start')}>
+          <a className="hd-item" onClick={() => handleClick('s11', 'start')}>
             Serviços
           </a>
-          <a className="hd-item" onClick={() => scrollToSection('card-slider', 'center')}>
+          <a className="hd-item" onClick={() => handleClick('card-slider', 'center')}>
             Artigos
           </a>
         </div>

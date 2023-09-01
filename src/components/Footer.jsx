@@ -1,9 +1,19 @@
 import Social from "./Social";
 import fullLogoGreen from '../assets/fullLogoGreen.png'
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import scrollToSection from "../utils/helpers";
 
 function Footer() {
+  const location = useLocation();
+  const navigate = useNavigate();
+
+  const handleClick = (section, position) => {
+    if (location.pathname !== '/') {
+      navigate('/');
+    } else {
+      scrollToSection(section, position);
+    }
+  }
 
  return (
   <div className='footer'>
@@ -27,16 +37,16 @@ function Footer() {
       </div>
       <div className="ft-up-c3">
         <div className="ft-menu">
-          <button className="ft-menu-btn" onClick={() => scrollToSection('s5', 'end')}>
+          <button className="ft-menu-btn" onClick={() => handleClick('s5', 'end')}>
             Quem Somos
           </button>
-          <button className="ft-menu-btn" onClick={() => scrollToSection('s6', 'center')}>
+          <button className="ft-menu-btn" onClick={() => handleClick('s6', 'center')}>
             Programas
           </button>
-          <button className="ft-menu-btn" onClick={() => scrollToSection('s11', 'start')}>
+          <button className="ft-menu-btn" onClick={() => handleClick('s11', 'start')}>
             Serviços
           </button>
-          <button className="ft-menu-btn" onClick={() => scrollToSection('card-slider', 'center')}>
+          <button className="ft-menu-btn" onClick={() => handleClick('card-slider', 'center')}>
             Artigos
           </button>
         </div>

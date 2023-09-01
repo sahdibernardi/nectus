@@ -1,11 +1,19 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import PropTypes from 'prop-types';
 import scrollToSection from "../utils/helpers";
 
 function MobileMenu({closeMenu}) {
+  const location = useLocation();
+  const navigate = useNavigate();
+
   const handleClick = (section, position) => {
-    scrollToSection(section, position);
-    closeMenu();
+    if (location.pathname !== '/') {
+      navigate('/');
+      scrollToSection(section, position);
+    } else {
+      scrollToSection(section, position);
+      closeMenu();
+    }
   }
 
   return (
