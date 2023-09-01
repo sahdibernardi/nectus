@@ -2,6 +2,8 @@ import { useState } from 'react';
 import nectusLogo from '../assets/nectusLogoHorizontal.png'
 import { Link } from 'react-router-dom';
 import scrollToSection from '../utils/helpers';
+import MobileMenu from './MobileMenu';
+import closeIcon from '../assets/close-btn.svg'
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -23,9 +25,12 @@ function Header() {
         </div>
       </Link>
       <div className='menu-icon' onClick={toggleMenu}>
-        <svg xmlns="http://www.w3.org/2000/svg" width="34" height="22" viewBox="0 0 34 22" fill="none">
-        <path d="M2 2H32M2 11H32M2 20H32" stroke="#8D55E7" />
-        </svg>
+        {!isMenuOpen ? (
+          <svg xmlns="http://www.w3.org/2000/svg" width="34" height="22" viewBox="0 0 34 22" fill="none">
+          <path d="M2 2H32M2 11H32M2 20H32" stroke="#8D55E7" />
+          </svg>
+        ) :
+        (<img src={ closeIcon } alt="X" />)}
       </div>
       <div className="hd-menu">
         <div className="hd-itens">
@@ -62,11 +67,7 @@ function Header() {
       </div>
     </div>
     {isMenuOpen && (
-      <div className="dropdown-content">
-        <button onClick={closeMenu}>Option 1</button>
-        <button onClick={closeMenu}>Option 2</button>
-        <button onClick={closeMenu}>Option 3</button>
-      </div>
+      <MobileMenu closeMenu={closeMenu} />
     )}
     </>
   )
