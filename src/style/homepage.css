@@ -187,8 +187,11 @@ body {
   border-radius: 0px 0px 100px 100px;
   margin-top: -30px;
   margin-bottom: 30px;
-  object-fit: cover;
-  animation: slideUpImages 2s linear;
+  transition: 0.5s;
+}
+
+.slide-up-animation {
+  animation: slideUpImages 1.5s linear;
 }
 
 .s5-logo {
@@ -1153,10 +1156,10 @@ body {
 
 @keyframes slideUpImages {
   0% {
-    object-fit: cover; object-position: 0 25px;
+    object-position: 0px 35px;
   }
   100% {
-    object-fit: cover; object-position: 0 0px;
+    object-position: 0px 0px;
   }
 }
 

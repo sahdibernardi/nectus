@@ -1,7 +1,8 @@
 import PropTypes from 'prop-types';
+import { scrollToId } from '../utils/helpers';
 
 function ProgramCard (props) {
-  const { title, imageLink, description, text } = props
+  const { title, imageLink, description, text, sectionId } = props
 
  return (
   <div className='pg-card'>
@@ -15,7 +16,7 @@ function ProgramCard (props) {
     <span className='pg-text'>
       { text }
     </span>
-    <button type="button" className="pg-btn">
+    <button type="button" className="pg-btn" onClick={() => scrollToId( sectionId, 'center')}>
       Saiba mais
     </button>
   </div>
@@ -27,6 +28,7 @@ ProgramCard.propTypes = {
   imageLink: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,
+  sectionId: PropTypes.string.isRequired,
 };
 
 export default ProgramCard

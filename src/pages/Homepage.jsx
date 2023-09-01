@@ -15,6 +15,10 @@ import Footer from '../components/Footer'
 import Header from '../components/Header'
 import ArticleSlider from '../components/ArticlesSlider'
 import HPForm from '../components/HPForm'
+import FadeInSection from '../utils/fadeInSection'
+import SlideUpImages from '../utils/slideUpImages'
+import scrollToSection from '../utils/helpers'
+
 
 function Homepage() {
 
@@ -24,7 +28,7 @@ function Homepage() {
     <div className="s1">
         <img alt="nectus headline" src={ headline } className='s1-headline' />
         <img alt="nectus logo" src={ nectusLogo } className='nectus-logo' />
-        <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none" className='down-arrow' id="s1-down-arrow">
+        <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none" className='down-arrow' id="s1-down-arrow" onClick={() => scrollToSection( 's2', 'center')}>
           <path d="M10 19L23 31L36 19" stroke="white"/>
           <circle cx="23" cy="23" r="22.5" stroke="white"/>
         </svg>
@@ -67,7 +71,9 @@ function Homepage() {
         </span>
         <div className='s5-subtitle'>
           <div className='s5-image-bg'>
-            <img alt='smiling guy' src={ smilingGuy } className='s5-img'/>
+            <SlideUpImages>
+              <img alt='smiling guy' src={ smilingGuy } className='s5-img'/>
+            </SlideUpImages>
           </div>
           <div className='s5-sb-text'>
             <span id='s4-text'>
@@ -107,7 +113,9 @@ function Homepage() {
         </span>
         <div className='s5-subtitle'>
           <div className='s5-image-bg'>
-            <img alt='smiling girl' src={ smilingGirl } className='s5-img'/>
+            <SlideUpImages>
+              <img alt='smiling girl' src={ smilingGirl } className='s5-img'/>
+            </SlideUpImages>
           </div>
           <div className='s5-sb-text'>
             <span id='s4-text'>
@@ -132,18 +140,21 @@ function Homepage() {
           description="Solução para colaboradores"
           text="Saúde mental em primeiro lugar."
           imageLink='./connects.png'
+          sectionId='connects'
         />
         <ProgramCard
           title="Envolves"
           description="Solução para empresas"
           text="Cuidando das mentes, impulsionando resultados."
           imageLink='./envolves.png'
+          sectionId='envolves'
         />
         <ProgramCard
           title="Assertive Sessions"
           description="Direcionamento assertivo de sessões"
           text="Encontre a sua terapia e especialista mais adequado."
           imageLink='./assertive.png'
+          sectionId='assertive-sessions'
         />
       </div>
     </div>
@@ -308,42 +319,50 @@ function Homepage() {
           <p id='s9-r-text'>
             Pense em sua empresa como um indivíduo. Ela precisa estar saudável para viver bem, evoluir, potencializar e expandir resultados.
           </p>
-        <div className='s9-r-box'>
-          <img alt='icon' src={chevronLeft} className='s9-icon-black'/>
-          <span className='s9-r-bold'>
-            70% do tempo os colaboradores reportam não estarem presente em reuniões
-          </span>
-          <p className='s9-font'>
-            (Mindful Leadership Institute)
-          </p>
-        </div>
-        <div className='s9-r-box'>
-          <img alt='icon' src={chevronLeft} className='s9-icon-black' />
-          <span className='s9-r-bold'>
-            12 bilhões de dias de trabalho são perdidos devido a problemas psicológicos no período de 1 ano
-          </span>
-          <p className='s9-font'>
-            (LHH do Grupo Adecco)
-          </p>
-        </div>
-        <div className='s9-r-box'>
-          <img alt='icon' src={chevronLeft} className='s9-icon-black'/>
-          <span className='s9-r-bold'>
-            Empresas que não cuidam da saúde mental das pessoas geram um custo de 1 trilhão de dólares por perda de produtividade e afastamento de colaboradores, na economia global
-          </span>
-          <p className='s9-font'>
-            (Fórum Econômico Mundial e LSE UK)
-          </p>
-        </div>
-        <div className='s9-r-box'>
-          <img alt='icon' src={chevronLeft} className='s9-icon-black'/>
-          <span className='s9-r-bold'>
-            US$ 6 trilhões serão os custos globais com problemas psicológicos até 2030
-          </span>
-          <p className='s9-font'>
-            (Fórum Econômico Mundial e LSE UK)
-          </p>
-        </div>
+        <FadeInSection>
+          <div className='s9-r-box'>
+            <img alt='icon' src={chevronLeft} className='s9-icon-black'/>
+            <span className='s9-r-bold'>
+              70% do tempo os colaboradores reportam não estarem presente em reuniões
+            </span>
+            <p className='s9-font'>
+              (Mindful Leadership Institute)
+            </p>
+          </div>
+        </FadeInSection>
+        <FadeInSection>
+          <div className='s9-r-box'>
+            <img alt='icon' src={chevronLeft} className='s9-icon-black' />
+            <span className='s9-r-bold'>
+              12 bilhões de dias de trabalho são perdidos devido a problemas psicológicos no período de 1 ano
+            </span>
+            <p className='s9-font'>
+              (LHH do Grupo Adecco)
+            </p>
+          </div>
+        </FadeInSection>
+        <FadeInSection>
+          <div className='s9-r-box'>
+            <img alt='icon' src={chevronLeft} className='s9-icon-black'/>
+            <span className='s9-r-bold'>
+              Empresas que não cuidam da saúde mental das pessoas geram um custo de 1 trilhão de dólares por perda de produtividade e afastamento de colaboradores, na economia global
+            </span>
+            <p className='s9-font'>
+              (Fórum Econômico Mundial e LSE UK)
+            </p>
+          </div>
+        </FadeInSection>
+        <FadeInSection>
+          <div className='s9-r-box'>
+            <img alt='icon' src={chevronLeft} className='s9-icon-black'/>
+            <span className='s9-r-bold'>
+              US$ 6 trilhões serão os custos globais com problemas psicológicos até 2030
+            </span>
+            <p className='s9-font'>
+              (Fórum Econômico Mundial e LSE UK)
+            </p>
+          </div>
+        </FadeInSection>
       </div>
     </div>
     <div className='s10'>
@@ -352,7 +371,7 @@ function Homepage() {
         <span>
           <span id="s10-hl">É possível mudar o rumo dessa história.</span> Faça parte do movimento de <span id="s10-hl-2">transformação humana global junto a agenda 2030 da ONU</span> e torne a sua empresa líder em cuidar da saúde das pessoas colaboradoras.
         </span>
-        <button className='btn-1'>
+        <button className='btn-1' onClick={() => scrollToSection( 's12', 'nearest')}>
           Conheça agora
         </button>
       </div>
@@ -362,65 +381,71 @@ function Homepage() {
       <div className='s11-title'>
         <span>SERVIÇOS</span>
       </div>
-      <div className='s11-box'>
-        <div className='s11-box-left'>
-          <span className='s11-box-title'>
-            Connects
-          </span>
-          <span className='s11-box-subtitle'>
-            O match perfeito entre você e a sua melhor versão.
-          </span>
-          <button className='btn-2'>
-            Agende uma demonstração
-          </button>
+      <FadeInSection>
+        <div className='s11-box'>
+          <div className='s11-box-left' id="connects">
+            <span className='s11-box-title'>
+              Connects
+            </span>
+            <span className='s11-box-subtitle'>
+              O match perfeito entre você e a sua melhor versão.
+            </span>
+            <button className='btn-2'>
+              Agende uma demonstração
+            </button>
+          </div>
+          <div className='s11-box-right'>
+            <p>
+              A Connects é uma ferramenta intuitiva de autoavaliação mental e emocional. Responda ao questionário para receber insights e descubra as melhores terapias e especialistas para iniciar o seu processo de evolução.
+            </p>
+          </div>
         </div>
-        <div className='s11-box-right'>
-          <p>
-            A Connects é uma ferramenta intuitiva de autoavaliação mental e emocional. Responda ao questionário para receber insights e descubra as melhores terapias e especialistas para iniciar o seu processo de evolução.
-          </p>
+      </FadeInSection>
+      <FadeInSection>
+        <div className='s11-box'>
+          <div className='s11-box-left s11-left-heigher'>
+            <span className='s11-box-title' id="envolves">
+              Evolves
+            </span>
+            <span className='s11-box-subtitle'>
+              Conectando empresas a melhores resultados.
+            </span>
+            <button className='btn-2 s11-bigmargin'>
+              Agende uma demonstração
+            </button>
+          </div>
+          <div className='s11-box-right s11-right-heigher'>
+            <p>
+            Toda empresa de sucesso é comprometida com a saúde e bem-estar dos colaboradores. Mapeie o estado mental e emocional das equipes e receba planos contínuos e personalizados para transformar pessoas e multiplicar resultados.
+            </p>
+            <p>
+              <strong>
+                Colaboradores chegam à excelência quando começam a construir novos padrões mentais, emocionais, comportamentais, culturais e sociais
+              </strong>
+            </p>
+          </div>
         </div>
-      </div>
-      <div className='s11-box'>
-        <div className='s11-box-left s11-left-heigher'>
-          <span className='s11-box-title'>
-            Evolves
-          </span>
-          <span className='s11-box-subtitle'>
-            Conectando empresas a melhores resultados.
-          </span>
-          <button className='btn-2 s11-bigmargin'>
-            Agende uma demonstração
-          </button>
+      </FadeInSection>
+      <FadeInSection>
+        <div className='s11-box'>
+          <div className='s11-box-left s11-left-heigher'>
+            <span className='s11-box-title' id="assertive-sessions">
+              Assertive Sessions
+            </span>
+            <span className='s11-box-subtitle'>
+              Encontre a sua terapia e especialista mais adequado.
+            </span>
+            <button className='btn-2 s11-bigmargin'>
+              Agende uma demonstração
+            </button>
+          </div>
+          <div className='s11-box-righ s11-right-heigher'>
+            <p>
+            Encontrar o terapeuta certo pode ser desafiador. Com nosso serviço de direcionamento assertivo, conectamos você ao especialista ideal. Identificamos terapeutas qualificados para suas necessidades específicas. Inicie a terapia com confiança e conveniência. Encontre a terapia certa e o especialista perfeito para sua jornada de evolução e crescimento pessoal.
+            </p>
+          </div>
         </div>
-        <div className='s11-box-right s11-right-heigher'>
-          <p>
-          Toda empresa de sucesso é comprometida com a saúde e bem-estar dos colaboradores. Mapeie o estado mental e emocional das equipes e receba planos contínuos e personalizados para transformar pessoas e multiplicar resultados.
-          </p>
-          <p>
-            <strong>
-              Colaboradores chegam à excelência quando começam a construir novos padrões mentais, emocionais, comportamentais, culturais e sociais
-            </strong>
-          </p>
-        </div>
-      </div>
-      <div className='s11-box'>
-        <div className='s11-box-left s11-left-heigher'>
-          <span className='s11-box-title'>
-            Assertive Sessions
-          </span>
-          <span className='s11-box-subtitle'>
-            Encontre a sua terapia e especialista mais adequado.
-          </span>
-          <button className='btn-2 s11-bigmargin'>
-            Agende uma demonstração
-          </button>
-        </div>
-        <div className='s11-box-righ s11-right-heigher'>
-          <p>
-          Encontrar o terapeuta certo pode ser desafiador. Com nosso serviço de direcionamento assertivo, conectamos você ao especialista ideal. Identificamos terapeutas qualificados para suas necessidades específicas. Inicie a terapia com confiança e conveniência. Encontre a terapia certa e o especialista perfeito para sua jornada de evolução e crescimento pessoal.
-          </p>
-        </div>
-      </div>
+      </FadeInSection>
     </div>
     <div className='s11-title'>
       <span>SERVIÇOS</span>

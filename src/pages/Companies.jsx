@@ -1,8 +1,13 @@
+import { useEffect } from "react";
 import ContactPage from "../components/ContactPage";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 
 function Companies() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
   return (
     <>
     <Header />

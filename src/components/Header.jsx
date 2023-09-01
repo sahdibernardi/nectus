@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import nectusLogo from '../assets/nectusLogoHorizontal.png'
 import { Link } from 'react-router-dom';
+import scrollToSection from '../utils/helpers';
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,15 +13,6 @@ function Header() {
   const closeMenu = () => {
     setIsMenuOpen(false);
   };
-
-  const scrollToSection = (sectionClass) => {
-    const section = document.getElementsByClassName(sectionClass);
-    if (section) {
-      console.log(section)
-      // section.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
 
   return (
     <>
@@ -37,21 +29,21 @@ function Header() {
       </div>
       <div className="hd-menu">
         <div className="hd-itens">
-          <a className="hd-item" onClick={() => scrollToSection('s5')}>
+          <a className="hd-item" onClick={() => scrollToSection('s5', 'end')}>
             Quem Somos
           </a>
-          <a className="hd-item">
+          <a className="hd-item" onClick={() => scrollToSection('s6', 'center')}>
             Programas
           </a>
-          <a className="hd-item">
+          <a className="hd-item" onClick={() => scrollToSection('s11', 'start')}>
             Serviços
           </a>
-          <a className="hd-item">
+          <a className="hd-item" onClick={() => scrollToSection('card-slider', 'center')}>
             Artigos
           </a>
         </div>
         <div className="hd-btns">
-          <Link to="/for-people" >
+          <Link to="/for-people">
             <button className="hd-btn">
               Para Pessoas Colaboradoras
             </button>

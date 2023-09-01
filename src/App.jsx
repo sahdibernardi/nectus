@@ -13,7 +13,6 @@ import Professionals from './pages/Professionals'
 import Companies from './pages/Companies'
 
 function App() {
-
   return (
     <>
       <BrowserRouter>

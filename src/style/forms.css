@@ -63,8 +63,8 @@ select {
 
 .form-btn:hover,
 .form-btn:focus {
-  box-shadow: inset 0 -3.25em 0 0 var(--nectus-green);
-  color: var(--nectus-purple);
+  box-shadow: inset 0 -3.25em 0 0 var(--nectus-purple-light);
+  color: var(--white);
 }
 
 

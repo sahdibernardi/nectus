@@ -1,5 +1,7 @@
 import Social from "./Social";
 import fullLogoGreen from '../assets/fullLogoGreen.png'
+import { Link } from "react-router-dom";
+import scrollToSection from "../utils/helpers";
 
 function Footer() {
 
@@ -7,9 +9,11 @@ function Footer() {
   <div className='footer'>
     <div className="ft-up">
       <div className="ft-up-c1">
-        <div className="ft-up-img">
-          <img src={fullLogoGreen} alt="nectus-logo-green" className="ft-up-logo"/>
-        </div>
+        <Link to="/" >
+          <div className="ft-up-img">
+            <img src={fullLogoGreen} alt="nectus-logo-green" className="ft-up-logo"/>
+          </div>
+        </Link>
         <div className="ft-c1-text">
           <strong className="ft-title">
             Nectus é revolução do bem-estar através da transformação do potencial humano.
@@ -23,29 +27,35 @@ function Footer() {
       </div>
       <div className="ft-up-c3">
         <div className="ft-menu">
-          <button className="ft-menu-btn">
+          <button className="ft-menu-btn" onClick={() => scrollToSection('s5', 'end')}>
             Quem Somos
           </button>
-          <button className="ft-menu-btn">
+          <button className="ft-menu-btn" onClick={() => scrollToSection('s6', 'center')}>
             Programas
           </button>
-          <button className="ft-menu-btn">
+          <button className="ft-menu-btn" onClick={() => scrollToSection('s11', 'start')}>
             Serviços
           </button>
-          <button className="ft-menu-btn">
+          <button className="ft-menu-btn" onClick={() => scrollToSection('card-slider', 'center')}>
             Artigos
           </button>
         </div>
         <div className="ft-btns">
-          <button className="ft-btn">
-            Para Pessoas Colaboradoras
-          </button>
-          <button className="ft-btn">
-            Para Profissionais
-          </button>
-          <button className="ft-btn">
-            Para Empresas
-          </button>
+          <Link to="/for-people">
+            <button className="ft-btn">
+              Para Pessoas Colaboradoras
+            </button>
+          </Link>
+          <Link to="/for-professionals" >
+            <button className="ft-btn">
+              Para Profissionais
+            </button>
+          </Link>
+          <Link to="/for-companies">
+            <button className="ft-btn">
+              Para Empresas
+            </button>
+          </Link>
         </div>
       </div>
       <div className="ft-up-c4">
