@@ -12,7 +12,7 @@ const cardData = [
   { id: 2,
     title: 'Card 2',
     magazine: './exameLogo.png',
-    imageLink: './harvard1.png',
+    imageLink: './exame1.png',
     headline: 'Para 70% dos brasileiros, empresas não sabem lidar com saúde mental',
     link: 'https://exame.com/carreira/para-70-dos-brasileiros-empresas-nao-sabem-lidar-com-saude-mental/',
   },
