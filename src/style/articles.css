@@ -14,10 +14,10 @@
 
 .card {
   width: 285px;
-  min-height: 500px;
+  min-height: 550px;
   background-color: var(--nectus-green);
   border-radius: 50px;
-  margin: 0 10px;
+  margin: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -52,12 +52,26 @@
   transform: scale(1.5);
 }
 
+.ar-img {
+  object-fit: cover;
+  width: 285px;
+  height: 285px;
+  border-radius: 50px;
+}
+
+.ar-mgz-img {
+  object-fit: cover;
+  width: auto;
+  max-height: 30px;
+}
+
 .ar-info {
   padding: 20px 50px 0px 50px;
+  min-height: 200px;
   display: flex;
   flex-direction: column;
   align-items: start;
-  justify-items: space-between;
+  justify-content: space-between;
 }
 
 .ar-link {
@@ -65,7 +79,6 @@
   font-size: 0.9rem;
   font-weight: bold;
   text-decoration: none;
-  padding: 0px 50px 0px 50px;
 }
 
 
@@ -75,13 +88,10 @@
 @media screen and (min-width: 768px) {
   .card-slider {
     overflow: hidden;
+    flex-direction: column;
   }
 
   .nav-buttons {
     display: flex;
-  }
-
-  .card-slider {
-    flex-direction: column;
   }
 }

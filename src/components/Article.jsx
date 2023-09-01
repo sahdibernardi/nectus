@@ -16,11 +16,11 @@ function Article (props) {
         <span className='ar-headline'>
           { headline }
         </span>
-    </div>
-    <div>
-      <a href={link} target="_blank" rel="noreferrer" className='ar-link'>
-          Leia mais <img alt='icon' src={chevronLeft} className='s9-icon-black'/>
-      </a>
+      <div style={{margin: "20px 0 0 0"}}>
+        <a href={link} target="_blank" rel="noreferrer" className='ar-link'>
+            Leia mais <img alt='icon' src={chevronLeft} className='s9-icon-black'/>
+        </a>
+      </div>
     </div>
   </div>
  )
