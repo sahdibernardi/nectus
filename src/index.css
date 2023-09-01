@@ -28,9 +28,9 @@
 
 .slide-right-section {
   opacity: 1;
-  transform: translateX(-140px);
+  transform: translateX(-120px);
   visibility: visible;
-  transition: opacity 0.6s ease-out, transform 3s ease-out;
+  transition: opacity 0.6s ease-out, transform 2s ease-out;
   will-change: opacity, visibility;
 }
 .slide-right-section.is-visible {

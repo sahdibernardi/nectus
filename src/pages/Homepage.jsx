@@ -397,7 +397,7 @@ function Homepage() {
             <span className='s11-box-subtitle'>
               O match perfeito entre você e a sua melhor versão.
             </span>
-            <button className='btn-2'>
+            <button className='btn-2 s11-btn' onClick={() => scrollToSection( 's12', 'nearest')}>
               Agende uma demonstração
             </button>
           </div>
@@ -405,6 +405,9 @@ function Homepage() {
             <p>
               A Connects é uma ferramenta intuitiva de autoavaliação mental e emocional. Responda ao questionário para receber insights e descubra as melhores terapias e especialistas para iniciar o seu processo de evolução.
             </p>
+            <button className='btn-2 s11-btn-2' onClick={() => scrollToSection( 's12', 'nearest')}>
+              Agende uma demonstração
+            </button>
           </div>
         </div>
       </FadeInSection>
@@ -417,11 +420,11 @@ function Homepage() {
             <span className='s11-box-subtitle'>
               Conectando empresas a melhores resultados.
             </span>
-            <button className='btn-2 s11-bigmargin'>
+            <button className='btn-2 s11-btn' onClick={() => scrollToSection( 's12', 'nearest')}>
               Agende uma demonstração
             </button>
           </div>
-          <div className='s11-box-right s11-right-heigher'>
+          <div className='s11-box-right'>
             <p>
             Toda empresa de sucesso é comprometida com a saúde e bem-estar dos colaboradores. Mapeie o estado mental e emocional das equipes e receba planos contínuos e personalizados para transformar pessoas e multiplicar resultados.
             </p>
@@ -430,6 +433,9 @@ function Homepage() {
                 Colaboradores chegam à excelência quando começam a construir novos padrões mentais, emocionais, comportamentais, culturais e sociais
               </strong>
             </p>
+            <button className='btn-2 s11-btn-2' onClick={() => scrollToSection( 's12', 'nearest')}>
+              Agende uma demonstração
+            </button>
           </div>
         </div>
       </FadeInSection>
@@ -442,20 +448,23 @@ function Homepage() {
             <span className='s11-box-subtitle'>
               Encontre a sua terapia e especialista mais adequado.
             </span>
-            <button className='btn-2 s11-bigmargin'>
+            <button className='btn-2 s11-btn' onClick={() => scrollToSection( 's12', 'nearest')}>
               Agende uma demonstração
             </button>
           </div>
-          <div className='s11-box-righ s11-right-heigher'>
+          <div className='s11-box-righ'>
             <p>
             Encontrar o terapeuta certo pode ser desafiador. Com nosso serviço de direcionamento assertivo, conectamos você ao especialista ideal. Identificamos terapeutas qualificados para suas necessidades específicas. Inicie a terapia com confiança e conveniência. Encontre a terapia certa e o especialista perfeito para sua jornada de evolução e crescimento pessoal.
             </p>
+            <button className='btn-2 s11-btn-2' onClick={() => scrollToSection( 's12', 'nearest')}>
+              Agende uma demonstração
+            </button>
           </div>
         </div>
       </FadeInSection>
     </div>
     <div className='s11-title'>
-      <span>SERVIÇOS</span>
+      <span style={{ margin: "20px" }}>ARTIGOS</span>
     </div>
     <ArticleSlider />
     <div className='s12'>
