@@ -18,6 +18,7 @@ import HPForm from '../components/HPForm'
 import FadeInSection from '../utils/fadeInSection'
 import SlideUpImages from '../utils/slideUpImages'
 import scrollToSection from '../utils/helpers'
+import SlideRightSection from '../utils/slideRightSection'
 
 
 function Homepage() {
@@ -176,31 +177,37 @@ function Homepage() {
           <div className='s7-it-number'>
             91%
           </div>
-          <div className='s7-it-text'>
-            <span >
-              dizem que o estresse ou frustração afeta de maneira negativa a qualidade do trabalho.
-            </span>
-          </div>
+          <SlideRightSection>
+            <div className='s7-it-text'>
+              <span >
+                dizem que o estresse ou frustração afeta de maneira negativa a qualidade do trabalho.
+              </span>
+            </div>
+          </SlideRightSection>
         </div>
         <div className='s7-it'>
           <div className='s7-it-number'>
             83%
           </div>
-          <div className='s7-it-text'>
-          <span>
-            dizem que o burnout no trabalho impacta negativamente seus relacionamentos pessoais.
-          </span>
-          </div>
+          <SlideRightSection>
+            <div className='s7-it-text'>
+            <span>
+              dizem que o burnout no trabalho impacta negativamente seus relacionamentos pessoais.
+            </span>
+            </div>
+          </SlideRightSection>
         </div>
         <div className='s7-it'>
           <div className='s7-it-number'>
             64%
           </div>
+          <SlideRightSection>
           <div className='s7-it-text'>
           <span>
             deles afirmam estar frequentemente estressados.
           </span>
           </div>
+          </SlideRightSection>
         </div>
       </div>
     </div>

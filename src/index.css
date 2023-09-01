@@ -26,6 +26,19 @@
   visibility: visible;
 }
 
+.slide-right-section {
+  opacity: 1;
+  transform: translateX(-140px);
+  visibility: visible;
+  transition: opacity 0.6s ease-out, transform 3s ease-out;
+  will-change: opacity, visibility;
+}
+.slide-right-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+
 .zoom-in-section {
   opacity: 0;
   transform: scale(0);

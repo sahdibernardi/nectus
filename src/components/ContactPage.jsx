@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import nectusLogo from '../assets/NectusLogo.png'
 import HPForm from './HPForm';
+import scrollToSection from '../utils/helpers';
 
 function ContactPage ({ buttonText, classProp, title, subtitle, formTitle }) {
     return (
@@ -12,7 +13,7 @@ function ContactPage ({ buttonText, classProp, title, subtitle, formTitle }) {
           </button>
           <img alt="nectus logo" src={ nectusLogo } className='nectus-logo' />
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none" className='down-arrow' id="s1-down-arrow">
+        <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none" className='down-arrow ' id="s1-down-arrow" onClick={() => scrollToSection( 'contact-form-div', 'nearest')}>
             <path d="M10 19L23 31L36 19" stroke="white"/>
             <circle cx="23" cy="23" r="22.5" stroke="white"/>
           </svg>
