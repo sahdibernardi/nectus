@@ -8,6 +8,7 @@
   --nectus-green: #93E663;
   --black: #000;
   --white: #FFF;
+  --nectus-lilac: #c8b3ea;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -30,7 +31,7 @@ input {
 }
 
 ::placeholder {
-  color: var(--nectus-purple-light);
+  color: var(--nectus-lilac);
   opacity: 1;
 }
 
@@ -41,8 +42,7 @@ select {
   padding: 8px;
   margin: 5px;
   font-size: 0.8rem;
-  min-height: 25px;
-  min-width: 320px;
+  width: 320px;
   color: var(--nectus-purple-light)
 }
 
@@ -55,6 +55,7 @@ select {
   border-radius: 100px;
   padding: 8px;
   font-size: 0.8rem;
+  font-weight: 700;
   color: var(--white);
   height: 35px;
   width: 320px;
@@ -64,8 +65,17 @@ select {
 
 .form-btn:hover,
 .form-btn:focus {
-  box-shadow: inset 0 -3.25em 0 0 var(--nectus-purple-light);
-  color: var(--white);
+  box-shadow: inset 0 -3.25em 0 0 var(--nectus-green);
+  border-color: var(--nectus-green);
+  color: var(--nectus-purple);
+}
+
+.s12-form-warning {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--nectus-purple-light);
+  line-height: 1rem;
+  text-align: center;
 }
 
 
@@ -77,15 +87,37 @@ select {
 
 
 @media screen and (min-width: 768px) {
+  .input-row {
+    display: flex;
+    justify-content: space-between;
+    width: 106%;
+  }
+
   input {
-    margin: 0;
+    border-radius: 100px;
+    padding: 8px;
+    margin: 5px;
+    font-size: 0.8rem;
+    max-height: 20px;
+    width: 100%;
   }
 
   select {
-    margin: 0;
+    background-color: var(--white);
+    border: 1px solid var(--nectus-purple);
+    border-radius: 100px;
+    padding: 8px;
+    margin: 5px;
+    font-size: 0.8rem;
+    width: 104%;
+    color: var(--nectus-purple-light)
   }
 
   .form-btn {
     margin: 10px;
+  }
+
+  .forms {
+    width: 450px;
   }
 }

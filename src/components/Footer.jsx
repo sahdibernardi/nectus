@@ -90,7 +90,7 @@ function Footer() {
             Empresas
           </p>
           <p className="c4-bottom"><strong>
-            coorporativo@nectusapp.com
+            corporativo@nectusapp.com
           </strong></p>
         </div>
         <div className="ft-c4-text">

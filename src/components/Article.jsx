@@ -19,7 +19,10 @@ function Article (props) {
         </span>
       <div style={{margin: "20px 0 0 0"}}>
         <a href={link} target="_blank" rel="noreferrer" className='ar-link'>
-            Leia mais <img alt='icon' src={chevronLeft} className='s9-icon-black'/>
+            Leia mais 
+              <svg className='ar-chevron' width="8" height="12" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 9L5 5L1 1" stroke="#8D55E7"/>
+              </svg>
         </a>
       </div>
       </div>

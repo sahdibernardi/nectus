@@ -1,3 +1,22 @@
+:root {
+  font-family: poppins;
+  line-height: 1.5;
+  font-weight: 500;
+
+  --nectus-purple: #8D55E7;
+  --nectus-purple-light: #CA53EA;
+  --nectus-green: #93E663;
+  --black: #000;
+  --white: #FFF;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
 .card-slider {
   display: flex;
   align-items: center;
@@ -15,7 +34,7 @@
 
 .card {
   width: 285px;
-  min-height: 550px;
+  min-height: 300px;
   background-color: var(--nectus-green);
   border-radius: 50px;
   margin: 10px;
@@ -56,26 +75,36 @@
 .ar-img {
   object-fit: cover;
   width: 285px;
-  height: 285px;
+  height: 200px;
   border-radius: 50px;
+}
+
+.ar-chevron {
+  margin-left: 10px;
 }
 
 .ar-mgz-img {
   object-fit: cover;
   width: auto;
-  max-height: 30px;
+  height: 17px;
 }
 
 .ar-center {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 260px;
+  height: 169px;
+  margin-top: 4px;
+}
+
+.ar-headline {
+  color: var(--black);
+  font-size: 0.88rem;
+  font-weight: 700;
 }
 
 .ar-info {
-  padding: 20px 50px 20px 50px;
-  min-height: 320px;
+  padding: 10px 30px 10px 30px;
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -101,5 +130,9 @@
 
   .nav-buttons {
     display: flex;
+  }
+
+  .card {
+    height: 430px;
   }
 }

@@ -61,7 +61,7 @@ function Homepage() {
         <span id='s4-text'>
           Pessoas felizes criam <span id="s2-hl">empresas de sucesso.</span>
         </span>
-        <p className='s2-text'>
+        <p className='s4-text'>
           Aqui, fortalecemos a saúde das empresas de forma leve e fluida. Inserimos cada negócio em uma cultura que gera ambientes produtivos, engajados e que promove a sensação de pertencimento, essencial para empresas que querem deixar a sua marca na sociedade e na vida das pessoas.
         </p>
       </div>
@@ -84,7 +84,7 @@ function Homepage() {
           </div>
         </div>
         <div className='s5-text-div'>
-          <p className='s2-text'>
+          <p className='s5-text'>
             Cuidamos da saúde de pessoas e empresas com gestão inteligente.  Visionamos bem-estar e engajamento que alavancam a produtividade, gerando ambientes  de felicidade com maior senso de pertencimento. Visão integral em saúde organizacional focada em resultados e sucesso a longo prazo.
           </p>
         </div>
@@ -104,7 +104,7 @@ function Homepage() {
           </div>
         </div>
         <div className='s5-text-div'>
-          <p className='s2-text'>
+          <p className='s5-text'>
             Promovemos a transformação da saúde organizacional integrando saúde mental, autoconhecimento e evolução humana. Direcionamos você de forma assertiva, contemplando suas necessidades e ampliando a sua visão sobre passado, presente e futuro. E isso inclui abraçar o corpo, a mente e o espírito.
           </p>
         </div>
@@ -126,7 +126,7 @@ function Homepage() {
           </div>
         </div>
         <div className='s5-text-div'>
-          <p className='s2-text'>
+          <p className='s5-text'>
             Cada pessoa é um universo, e cuidar deste individuo é zelar pela saúde e evolução da empresa. Consciência transformada gera felicidade e impulsiona o crescimento profissional e pessoal. Com a gestão da saúde mental você leva sua organização a outro nível, conectando mentes e pessoas a construírem juntos uma organização feliz e saudável.
           </p>
         </div>
@@ -165,11 +165,11 @@ function Homepage() {
         <span id="s7-title">
           Separar o pessoal do profissional?
         </span>
-        <span id="s7-subtitle"> Impossível</span>
-        <p>
+        <span id="s7-subtitle">Impossível</span>
+        <p className='s7-l-text'>
           Existe uma crença de que é possível dividir a personalidade em duas: uma pessoal e outra profissional. Somos seres integrados, que se fragmentam ao longo do tempo. Essa fragmentação, causada pelas bagagens ao longo da vida e,  intensidade da rotina, afeta a saúde física, mental e emocional.
         </p>
-        <p>
+        <p className='s7-l-text'>
           Uma pesquisa realizada pela consultoria Deloitte mostra que a exaustão tem efeitos dentro e fora do trabalho.
         </p>
       </div>
@@ -180,7 +180,7 @@ function Homepage() {
           </div>
           <SlideRightSection>
             <div className='s7-it-text'>
-              <span >
+              <span>
                 dizem que o estresse ou frustração afeta de maneira negativa a qualidade do trabalho.
               </span>
             </div>
@@ -320,17 +320,22 @@ function Homepage() {
         </div>
       </div>
       <div className='s9-right'>
-        <span className='s9-r-title'>
-          Pessoas saudáveis, empresas saudáveis, <span className='s9-r-bold'>
-          organizações que crescem.</span>
-        </span>
+          <p className='s9-r-title'>
+            Pessoas saudáveis, 
+          </p>
+          <p className='s9-r-title'>
+            empresas saudáveis,
+          </p>
+          <p className='s9-r-bold s9-r-title'>
+            organizações que crescem.
+          </p>
           <p id='s9-r-text'>
             Pense em sua empresa como um indivíduo. Ela precisa estar saudável para viver bem, evoluir, potencializar e expandir resultados.
           </p>
         <FadeInSection>
           <div className='s9-r-box'>
             <img alt='icon' src={chevronLeft} className='s9-icon-black'/>
-            <span className='s9-r-bold'>
+            <span className='s9-r-point'>
               70% do tempo os colaboradores reportam não estarem presente em reuniões
             </span>
             <p className='s9-font'>
@@ -341,7 +346,7 @@ function Homepage() {
         <FadeInSection>
           <div className='s9-r-box'>
             <img alt='icon' src={chevronLeft} className='s9-icon-black' />
-            <span className='s9-r-bold'>
+            <span className='s9-r-point'>
               12 bilhões de dias de trabalho são perdidos devido a problemas psicológicos no período de 1 ano
             </span>
             <p className='s9-font'>
@@ -352,7 +357,7 @@ function Homepage() {
         <FadeInSection>
           <div className='s9-r-box'>
             <img alt='icon' src={chevronLeft} className='s9-icon-black'/>
-            <span className='s9-r-bold'>
+            <span className='s9-r-point'>
               Empresas que não cuidam da saúde mental das pessoas geram um custo de 1 trilhão de dólares por perda de produtividade e afastamento de colaboradores, na economia global
             </span>
             <p className='s9-font'>
@@ -363,7 +368,7 @@ function Homepage() {
         <FadeInSection>
           <div className='s9-r-box'>
             <img alt='icon' src={chevronLeft} className='s9-icon-black'/>
-            <span className='s9-r-bold'>
+            <span className='s9-r-point'>
               US$ 6 trilhões serão os custos globais com problemas psicológicos até 2030
             </span>
             <p className='s9-font'>
@@ -379,7 +384,7 @@ function Homepage() {
         <span>
           <span id="s10-hl">É possível mudar o rumo dessa história.</span> Faça parte do movimento de <span id="s10-hl-2">transformação humana global junto a agenda 2030 da ONU</span> e torne a sua empresa líder em cuidar da saúde das pessoas colaboradoras.
         </span>
-        <button className='btn-1' onClick={() => scrollToSection( 's12', 'nearest')}>
+        <button className='btn-1' id="s10-btn" onClick={() => scrollToSection( 's12', 'nearest')}>
           Conheça agora
         </button>
       </div>

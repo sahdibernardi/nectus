@@ -77,7 +77,7 @@ function HPForm ({ status, message, onValidated }) {
               onChange={(e) => setPhone(e.target.value)}
               value={phone}
             />
-            <div>
+            <div className="input-row">
               <input
                 type="text"
                 placeholder="Cargo"
@@ -86,15 +86,15 @@ function HPForm ({ status, message, onValidated }) {
                 value={position}
               />
               <select className='s12-select' onChange={(e) => setDepartment(e.target.value)}>
-                <option value="Departamento" selected>Departamento</option>
-                <option value="Administrativo">Administrativo</option>
-                <option value="RH">RH</option>
-                <option value="Marketing/Vendas">Marketing/Vendas</option>
-                <option value="TI">TI</option>
+                <option value="Departamento" default disabled>Departamento</option>
+                <option value="Founders / Gestão de Pessoas / RH">Founders / Gestão de Pessoas / RH</option>
+                <option value="Administrativo / Financeiro">Administrativo / Financeiro</option>
+                <option value="Comercial / Vendas / Marketing">Comercial / Vendas / Marketing</option>
+                <option value="Tecnologia / P&D / Operações e Processos">Tecnologia / P&D / Operações e Processos</option>
                 <option value="Outros">Outros</option>
               </select>
             </div>
-            <div>
+            <div className="input-row">
               <input
                 type="text"
                 placeholder="Empresa"
@@ -103,7 +103,7 @@ function HPForm ({ status, message, onValidated }) {
                 value={company}
               />
               <select className='s12-select' onChange={(e) => setSize(e.target.value)}>
-                <option value="0" selected>Quantidade de Colaboradores</option>
+                <option value="Quantidade de Colaboradores" default disabled>Quantidade de Colaboradores</option>
                 <option value="1 a 50">1-50</option>
                 <option value="51 a 100">51-100</option>
                 <option value="101 a 500">101-500</option>
@@ -112,11 +112,12 @@ function HPForm ({ status, message, onValidated }) {
               </select>
             </div>
             <select className='s12-select' onChange={(e) => setHeardAbout(e.target.value)}>
-              <option value="Como ouviu" selected>Como ouviu falar da Nectus?</option>
+              <option value="Como ouviu" default disabled>Como ouviu falar da Nectus?</option>
               <option value="Google">Google</option>
               <option value="Redes Sociais">Redes Sociais</option>
               <option value="Evento">Evento</option>
               <option value="Indicação">Indicação</option>
+              <option value="Outros">Outros</option>
             </select>
             <input
                 type="text"
@@ -126,24 +127,23 @@ function HPForm ({ status, message, onValidated }) {
                 value={reason}
               />
             <button className='form-btn' type="submit">
-              Agendar Agora
+              Agendar agora
             </button>
             {status === "sending" && (
               <div className="s12-form-warning">
-                sending...
+                Enviando...
               </div>
             )}
+            {console.log(message)}
             {status === "error" && (
-              <div 
-                className="s12-form-warning"
-                dangerouslySetInnerHTML={{ __html: message }}
-              />
+              <div className="s12-form-warning">
+                Desculpe, ocorreu o seguinte erro ao enviar o seu formulário: {message}
+              </div>
             )}
             {status === "success" && (
-              <div
-                className="s12-form-warning"
-                dangerouslySetInnerHTML={{ __html: message }}
-              />
+              <div className="s12-form-warning">
+                Obrigada pela inscrição! Entraremos em contato o mais brevemente possível.
+              </div>
             )}
           </form>
   )

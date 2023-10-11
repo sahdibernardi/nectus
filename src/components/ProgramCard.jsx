@@ -10,15 +10,17 @@ function ProgramCard (props) {
       { title }
     </span>
     <img alt={ title } src={ imageLink } className='pg-img' />
-    <span className='pg-hl'>
-      { description }
-    </span>
-    <span className='pg-text'>
-      { text }
-    </span>
-    <button type="button" className="pg-btn" onClick={() => scrollToId( sectionId, 'center')}>
-      Saiba mais
-    </button>
+      <span className='pg-hl'>
+        { description }
+      </span>
+    <div className='pg-center'>
+      <span className='pg-text'>
+        { text }
+      </span>
+      <button type="button" className="pg-btn" onClick={() => scrollToId( sectionId, 'center')}>
+        Saiba mais
+      </button>
+    </div>
   </div>
  )
 }
