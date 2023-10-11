@@ -1,7 +1,8 @@
 import PropTypes from 'prop-types';
 import nectusLogo from '../assets/NectusLogo.png'
-import HPForm from './HPForm';
+// import HPForm from './HPForm';
 import scrollToSection from '../utils/helpers';
+import MailchimpFormContainer from './MailchimpFormContainer';
 
 function ContactPage ({ buttonText, classProp, title, subtitle, formTitle }) {
     return (
@@ -28,7 +29,8 @@ function ContactPage ({ buttonText, classProp, title, subtitle, formTitle }) {
           <span className='s12-form-title' >
             {formTitle}
           </span>
-          <HPForm />
+          {/* <HPForm /> */}
+          <MailchimpFormContainer />
         </div>
       </div>
       </>

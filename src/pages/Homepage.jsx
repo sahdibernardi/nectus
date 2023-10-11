@@ -14,11 +14,12 @@ import vectorGroup2 from '../assets/VectorGroup2.svg'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
 import ArticleSlider from '../components/ArticlesSlider'
-import HPForm from '../components/HPForm'
+// import HPForm from '../components/HPForm'
 import FadeInSection from '../utils/fadeInSection'
 import SlideUpImages from '../utils/slideUpImages'
 import scrollToSection from '../utils/helpers'
 import SlideRightSection from '../utils/slideRightSection'
+import MailchimpFormContainer from '../components/MailchimpFormContainer'
 
 
 function Homepage() {
@@ -478,7 +479,7 @@ function Homepage() {
           <span className='s12-form-title'>
             Agende uma conversa com a gente.
           </span>
-          <HPForm />
+          <MailchimpFormContainer />
         </div>
       </div>
       <div className='s12-img-div'>

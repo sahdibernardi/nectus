@@ -709,6 +709,14 @@ body {
   text-align: left;
 }
 
+.s12-form-warning {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--nectus-purple-light);
+  line-height: 25px;
+  text-align: center;
+}
+
 .s12-text {
   text-align: left;
   justify-content: center;
