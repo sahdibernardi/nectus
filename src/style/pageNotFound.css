@@ -1,0 +1,22 @@
+:root {
+  font-family: poppins;
+  line-height: 1.5;
+  font-weight: 500;
+
+  --nectus-purple: #8D55E7;
+  --nectus-purple-light: #CA53EA;
+  --nectus-green: #93E663;
+  --black: #000;
+  --white: #FFF;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.pnf-main {
+  padding: 200px 70px 20px 70px;
+  min-height: 100vh;
+}
