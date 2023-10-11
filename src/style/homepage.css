@@ -366,6 +366,7 @@ body {
 }
 
 .s8 {
+  background-color: var(--white);
   margin-top: 380px;
   padding: 2rem;
   text-align: center;
@@ -545,6 +546,7 @@ body {
   align-items: center;
   font-size: 1.4rem;
   line-height: 1.8rem;
+  background-color: var(--white);
   color: var(--nectus-purple);
   max-width: 100%;
   text-align: center;
@@ -604,6 +606,7 @@ body {
 }
 
 .s11 {
+  background-color: var(--white);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -695,6 +698,7 @@ body {
   align-items: center;
   font-size: 1.4rem;
   line-height: 1.8rem;
+  background-color: var(--white);
   color: var(--nectus-purple);
   max-width: 100%;
   text-align: center;
@@ -758,6 +762,7 @@ body {
   }
 
   .s2 {
+    background-color: var(--white);
     height: 800px;
     font-size: 2.3rem;
     line-height: 2.9rem;
@@ -790,10 +795,12 @@ body {
 
   .s3 {
     margin-top: -100px;
+    background-color: var(--white);
   }
 
   .s4 {
     flex-direction: row;
+    background-color: var(--white);
   }
 
   .s4-left {
@@ -824,6 +831,7 @@ body {
     justify-content: center;
     padding: 10px;
     margin-top: 50px;
+    background-color: var(--white);
   }
 
   .s5-div {
@@ -856,6 +864,7 @@ body {
 
   .s6 {
     margin-top: 50px;
+    background-color: var(--white);
   }
 
   .s7 {
