@@ -108,7 +108,7 @@ function HPForm ({ status, message, onValidated }) {
                 <option value="51 a 100">51-100</option>
                 <option value="101 a 500">101-500</option>
                 <option value="501 a 1000">501-1000</option>
-                <option value="mais de 1000">mais de 1000</option>
+                <option value="mais que 1000">mais de 1000</option>
               </select>
             </div>
             <select className='s12-select' onChange={(e) => setHeardAbout(e.target.value)}>
@@ -118,13 +118,13 @@ function HPForm ({ status, message, onValidated }) {
               <option value="Evento">Evento</option>
               <option value="Indicação">Indicação</option>
             </select>
-            <select className='s12-select' onChange={(e) => setReason(e.target.value)}>
-              <option value="Motivo do Contato" selected>Motivo do Contato</option>
-              <option value="Motivo 1">Motivo 1</option>
-              <option value="Motivo 2">Motivo 2</option>
-              <option value="Motivo 3">Motivo 3</option>
-              <option value="Outros">Outros</option>
-            </select>
+            <input
+                type="text"
+                placeholder="Motivo do Contato"
+                className='s12-input'
+                onChange={(e) => setReason(e.target.value)}
+                value={reason}
+              />
             <button className='form-btn' type="submit">
               Agendar Agora
             </button>

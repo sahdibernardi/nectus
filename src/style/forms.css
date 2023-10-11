@@ -20,6 +20,7 @@
 input {
   background-color: var(--white);
   border: 1px solid var(--nectus-purple);
+  color: var(--nectus-purple-light);
   border-radius: 100px;
   padding: 8px;
   margin: 5px;
