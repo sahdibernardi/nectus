@@ -15,7 +15,7 @@ function PageNotFound() {
             <img alt='graphic nectus logo' src={ graphicNectusLogo } className='graphic-logo' id="graphic-left"/>
             <div className='s2-title'>
                 <span>
-                Erro 404
+                    Erro 404
                 <br></br>
                 <span id="s2-hl">
                     Página não encontrada
@@ -25,7 +25,7 @@ function PageNotFound() {
                     Pedimos desculpas pela inconveniência e transtorno gerado, saiba que estamos trabalhando com amor e dedicação para estabilizar e a voltar agregar mais em sua vida e organização.
                 </p>
                 <p className='s2-text'>
-                    A Nectus é a sua parceira, para mais dúvidas, sugestões, sobre nossos serviços, entre em contato com o nosso suporte!
+                    A Nectus é a sua parceira, para mais dúvidas, sugestões, sobre nossos serviços, entre em contato com o nosso suporte em suporte@nectusapp.com!
                 </p>
                 <p className='s2-text'>
                     Ficaremos felizes em lhe atender! Obrigada(o) pela compreensão!✨

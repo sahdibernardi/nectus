@@ -13,6 +13,7 @@ function Article (props) {
       <div className='ar-mgz'>
         <img alt={ magazine } src={ magazine } className='ar-mgz-img' />
       </div>
+      <div className='ar-center'>
         <span className='ar-headline'>
           { headline }
         </span>
@@ -20,6 +21,7 @@ function Article (props) {
         <a href={link} target="_blank" rel="noreferrer" className='ar-link'>
             Leia mais <img alt='icon' src={chevronLeft} className='s9-icon-black'/>
         </a>
+      </div>
       </div>
     </div>
   </div>
