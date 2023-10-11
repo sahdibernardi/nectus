@@ -112,7 +112,7 @@ function HPForm ({ status, message, onValidated }) {
               </select>
             </div>
             <select className='s12-select' onChange={(e) => setHeardAbout(e.target.value)}>
-              <option value="Como ouviu" default disabled>Como ouviu falar da Nectus?</option>
+              <option value="Como ouviu" default disabled >Como ouviu falar da Nectus?</option>
               <option value="Google">Google</option>
               <option value="Redes Sociais">Redes Sociais</option>
               <option value="Evento">Evento</option>

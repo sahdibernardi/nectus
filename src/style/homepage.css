@@ -1293,7 +1293,7 @@ body {
   .s12-right-div {
     padding: 0px 50px 50px 50px;
     margin-left: 50px;
-    max-width: 350px;
+    max-width: 450px;
   }
 
   .s12-text {
@@ -1305,6 +1305,13 @@ body {
 
   .s12-div {
     flex-direction: row;
+  }
+
+  .s12-form-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--nectus-purple-light);
+    text-align: left;
   }
 
 }

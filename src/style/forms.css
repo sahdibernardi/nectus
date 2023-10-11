@@ -21,7 +21,7 @@
 input {
   background-color: var(--white);
   border: 1px solid var(--nectus-purple);
-  color: var(--nectus-purple-light);
+  color: var(--nectus-lilac);
   border-radius: 100px;
   padding: 8px;
   margin: 5px;
@@ -32,7 +32,6 @@ input {
 
 ::placeholder {
   color: var(--nectus-lilac);
-  opacity: 1;
 }
 
 select {
@@ -43,7 +42,7 @@ select {
   margin: 5px;
   font-size: 0.8rem;
   width: 320px;
-  color: var(--nectus-purple-light)
+  color: var(--nectus-lilac);
 }
 
 .select-arrow {
@@ -91,6 +90,7 @@ select {
     display: flex;
     justify-content: space-between;
     width: 106%;
+    margin-top: 5px;
   }
 
   input {
@@ -110,11 +110,12 @@ select {
     margin: 5px;
     font-size: 0.8rem;
     width: 104%;
-    color: var(--nectus-purple-light)
+    color: var(--nectus-lilac);
   }
 
   .form-btn {
-    margin: 10px;
+    margin: 5px;
+    width: 468px;
   }
 
   .forms {
