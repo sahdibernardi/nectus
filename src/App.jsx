@@ -23,7 +23,8 @@ function App() {
            <Route Component = { People }  path="/for-people"/>
            <Route Component = { Professionals }  path="/for-professionals" />
            <Route Component = { Companies }  path="/for-companies" />
-           <Route path="*" element={<PageNotFound />} />
+           <Route path="*" Component={PageNotFound} />
+           <Route Component={PageNotFound} />
         </Routes>
        </BrowserRouter>
     </>
