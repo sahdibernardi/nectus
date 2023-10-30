@@ -767,8 +767,10 @@ body {
   }
   
   .s1-headline {
-    width: 250px;
+    width: 220px;
     padding-right: 350px;
+    margin-left: -25px;
+    margin-bottom: -10px;
   }
 
   .down-arrow {
@@ -780,17 +782,21 @@ body {
   .s2 {
     background-color: var(--white);
     height: 800px;
-    font-size: 2.3rem;
-    line-height: 2.9rem;
+    font-size: 2.2rem;
+    line-height: 2.7rem;
   }
 
   .s2-title {
     padding: 0px;
+    margin-left: -35px;
+    margin-right: -35px;
   }
 
   .s2-text {
-    line-height: 1.7rem;
-    font-size: 1rem;
+    line-height: 1.5rem;
+    font-size: 0.8rem;
+    max-width: 86%;
+    margin-top: 20px;
   }
 
   .graphic-logo {
@@ -826,10 +832,11 @@ body {
   }
 
   .s4-text {
-    line-height: 1.7rem;
-    font-size: 1rem;
+    line-height: 1.6rem;
+    font-size: 0.85rem;
     color: var(--black);
     font-weight: 300;
+    margin-top: 25px;
   }
   
   #s4-men {
@@ -840,29 +847,44 @@ body {
 
   .s4-right {
     border-radius: 50px 50px 50px 0px;
-    width: 400px;
+    width: 320px;
     height: 446px;
     backdrop-filter: none;
-    font-size: 2rem;
+    font-size: 1.6rem;
     line-height: 2rem;
-    padding: 0px 30px 0px 90px;
+    padding: 0px 50px 0px 90px;
   }
 
   .s5 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 10px;
+    padding: 30px;
     margin-top: 50px;
     background-color: var(--white);
   }
 
   .s5-div {
-    max-width: 250px;
+    max-width: 200px;
+    padding: 0;
+  }
+
+  .s5-title-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    min-width: 250px;
+    font-size: 0.7rem;
   }
 
   .s5-title {
     margin-bottom: 20px;
+    max-width: 90px;
+  }
+
+  #s5-who {
+    max-width: 80px;
   }
 
   .s5-subtitle {
@@ -873,23 +895,47 @@ body {
     padding-right: 10px;
   }
 
+  .s5-image-bg {
+    height: 160px;
+    width: 160px;
+    border-radius: 100%;
+    backdrop-filter: blur(10px);
+  }
+
+  .s5-img {
+    height: 190px;
+    width: 160px;
+  }
+
+  .sb-bg-div {
+    display: flex;
+    flex-direction: column;m
+  }
+
   .s5-sb-text {
     z-index: 4;
-    padding: 20px;
+    padding: 10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 1.1rem;
+    line-height: 1.2rem;
   }
 
   .s5-text-div {
     z-index: none;
-    margin-top: -250px;
-    height: 300px;
+    margin-top: -200px;
+    height: 350px;
     display: flex;
+    border-radius: 30px;
     justify-content: flex-start;
     padding-top: 250px;
   }
 
   .s5-text {
-    line-height: 1.3rem;
-    font-size: 0.8rem;
+    margin: 0;
+    padding-top: 0;
+    line-height: 1rem;
+    font-size: 0.7rem;
     font-weight: 300;
     color: var(--black);
     padding-left: 10px;
