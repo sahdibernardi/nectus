@@ -86,7 +86,9 @@ function HPForm ({ status, message, onValidated }) {
                 value={position}
               />
               <select className='s12-select' onChange={(e) => setDepartment(e.target.value)}>
-                <option value="Departamento" default disabled>Departamento</option>
+                <option value="Departamento" default>
+                  Departamento
+                </option>
                 <option value="Founders / Gestão de Pessoas / RH">Founders / Gestão de Pessoas / RH</option>
                 <option value="Administrativo / Financeiro">Administrativo / Financeiro</option>
                 <option value="Comercial / Vendas / Marketing">Comercial / Vendas / Marketing</option>
@@ -103,7 +105,7 @@ function HPForm ({ status, message, onValidated }) {
                 value={company}
               />
               <select className='s12-select' onChange={(e) => setSize(e.target.value)}>
-                <option value="Quantidade de Colaboradores" default disabled>Quantidade de Colaboradores</option>
+                <option value="Quantidade de Colaboradores" default>Quantidade de Colaboradores</option>
                 <option value="1 a 50">1-50</option>
                 <option value="51 a 100">51-100</option>
                 <option value="101 a 500">101-500</option>
@@ -112,7 +114,7 @@ function HPForm ({ status, message, onValidated }) {
               </select>
             </div>
             <select className='s12-select' onChange={(e) => setHeardAbout(e.target.value)}>
-              <option value="Como ouviu" default disabled >Como ouviu falar da Nectus?</option>
+              <option value="Como ouviu" default>Como ouviu falar da Nectus?</option>
               <option value="Google">Google</option>
               <option value="Redes Sociais">Redes Sociais</option>
               <option value="Evento">Evento</option>

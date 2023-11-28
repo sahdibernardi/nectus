@@ -689,6 +689,7 @@ body {
   justify-content: center;
   color: var(--nectus-purple);
   margin-top: 50px;
+  font-size: 0.8rem;
 }
 
 .s12-div {
@@ -1322,7 +1323,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 700px;
+    height: 450px;
     font-size: 2.3rem;
     line-height: 2.9rem;
   }
@@ -1344,20 +1345,29 @@ body {
 
   .s12-text {
     max-width: 350px;
-    font-size: 2.8rem;
+    font-size: 2.2rem;
     text-align: left;
-    line-height: 3.5rem;
+    line-height: 2.6rem;
+    margin-left: 60px;
   }
 
   .s12-div {
     flex-direction: row;
+    max-width: 850px;
+  }
+
+  .s12-right-div {
+    display: flex;
+    flex-direction: column;
+    margin-top: -20px;
   }
 
   .s12-form-title {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 700;
     color: var(--nectus-purple-light);
     text-align: left;
+    margin-left: -40px;
   }
 
 }

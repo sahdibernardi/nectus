@@ -47,19 +47,19 @@
 .nav-buttons {
   display: none;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 20px;
   font-size: 0.1rem;
 }
 
 .nav-button {
-  background-color: rgb(202 83 234 / 0.40);
+  background-color: rgb(141 85 231 / 0.40);
   border: none;
-  margin: 5px;
+  margin: 2.5px;
   cursor: pointer;
   border-radius: 20px;
   font-size: 0.1rem;
-  width: 10px;
-  height: 10px;
+  width: 9px;
+  height: 9px;
   transition: ease-in-out 0.2s;
 }
 
@@ -67,9 +67,9 @@
   background-color: var(--nectus-purple);
   border: none;
   font-size: 0.1rem;
-  width: 10px;
-  height: 10px;
-  transform: scale(1.5);
+  width: 9px;
+  height: 9px;
+  /* transform: scale(1.2); */
 }
 
 .ar-img {
@@ -133,6 +133,42 @@
   }
 
   .card {
-    height: 430px;
+    height: 330px;
+    width: 210px;
+    border-radius: 30px;
+    margin: 8px;
+  }
+
+  .ar-img {
+    width: 210px;
+    height: 170px;
+    border-radius: 30px;
+  }
+
+  .ar-mgz-img {
+    height: 14px;
+  }
+
+  .ar-headline {
+    font-size: 0.64rem;
+    font-weight: 700;
+  }
+
+  .ar-info {
+    padding: 10px 20px 10px 20px;
+  }
+
+  .ar-center {
+    height: 100px;
+    margin-top: 4px;
+  }
+
+  .ar-link {
+    font-size: 0.64rem;
+    font-weight: 700;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
   }
 }

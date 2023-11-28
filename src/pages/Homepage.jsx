@@ -478,14 +478,14 @@ function Homepage() {
       </FadeInSection>
     </div>
     <div className='s11-title'>
-      <span style={{ margin: "20px" }}>ARTIGOS</span>
+      <span style={{ margin: "30px" }}>ARTIGOS</span>
     </div>
     <ArticleSlider />
     <div className='s12'>
       <div className='s12-div'>
         <div className='s12-text'>
           <span>
-            <span id="s10-hl">Empresas de sucesso cuidam das pessoas colaboradoras.</span> Comece hoje.
+            <span id="s10-hl">Empresas<br></br> de sucesso cuidam <br></br> das pessoas colaboradoras.</span> Comece hoje.
           </span>
         </div>
         <div className="s12-right-div">

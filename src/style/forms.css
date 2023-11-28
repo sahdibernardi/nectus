@@ -89,15 +89,15 @@ select {
   .input-row {
     display: flex;
     justify-content: space-between;
-    width: 106%;
-    margin-top: 5px;
+    width: 107%;
+    margin-top: 0px;
   }
 
   input {
     border-radius: 100px;
     padding: 8px;
     margin: 5px;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     max-height: 20px;
     width: 100%;
   }
@@ -108,17 +108,22 @@ select {
     border-radius: 100px;
     padding: 8px;
     margin: 5px;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     width: 104%;
     color: var(--nectus-lilac);
   }
 
   .form-btn {
+    font-size: 0.7rem;
+    font-weight: 500;
     margin: 5px;
-    width: 468px;
+    width: 418px;
   }
 
   .forms {
-    width: 450px;
+    width: 400px;
+    margin-left: -50px;
+    display: flex;
+    flex-direction: column;
   }
 }

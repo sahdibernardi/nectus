@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types';
-import chevronLeft from '../assets/chevronLeft.svg'
 
 function Article (props) {
   const { magazine, imageLink, headline, link } = props.card
