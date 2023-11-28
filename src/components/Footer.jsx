@@ -70,11 +70,11 @@ function Footer() {
       </div>
       <div className="ft-up-c4">
         <div className="ft-c4-text">
-          <p><strong>
+          <p id="ft-c4-title"><strong>
             Atendimento
           </strong></p>
           <p className="c4-bottom">
-            Atendimento a clientes, colaboradores e empresas de segunda à sexta-feira das 9h às 19h (exceto feriados)
+            Atendimento a clientes, colaboradores e empresas de segunda à sexta-feira das 9h às 19h <span id="ft-c4-holidays">(exceto feriados)</span>
           </p>
         </div>
         <div className="ft-c4-text">
