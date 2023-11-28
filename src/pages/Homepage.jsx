@@ -390,7 +390,7 @@ function Homepage() {
         <img alt='graphic nectus logo' src={ graphicNectusLogo } className='s10-graphic-logo' id="s10-logo-right"/>
       <div className='s10-title'>
         <span>
-          <span id="s10-hl">É possível mudar o rumo dessa história.</span> Faça parte do movimento de <span id="s10-hl-2">transformação humana global junto a agenda 2030 da ONU</span> e torne a sua empresa líder em cuidar da saúde das pessoas colaboradoras.
+          <span id="s10-hl">É possível mudar o rumo dessa história.</span> Faça parte do movimento de <span id="s10-hl-2">transformação humana global<br></br> junto a agenda 2030 da ONU</span><br></br> e torne a sua empresa líder em cuidar da saúde das pessoas colaboradoras.
         </span>
         <button className='btn-1' id="s10-btn" onClick={() => scrollToSection( 's12', 'nearest')}>
           Conheça agora
@@ -441,8 +441,7 @@ function Homepage() {
           <div className='s11-box-right'>
             <p>
             Toda empresa de sucesso é comprometida com a saúde e bem-estar dos colaboradores. Mapeie o estado mental e emocional das equipes e receba planos contínuos e personalizados para transformar pessoas e multiplicar resultados.
-            </p>
-            <p>
+            <br></br>
               <strong>
                 Colaboradores chegam à excelência quando começam a construir novos padrões mentais, emocionais, comportamentais, culturais e sociais
               </strong>
@@ -466,7 +465,7 @@ function Homepage() {
               Agende uma demonstração
             </button>
           </div>
-          <div className='s11-box-righ'>
+          <div className='s11-box-right'>
             <p>
             Encontrar o terapeuta certo pode ser desafiador. Com nosso serviço de direcionamento assertivo, conectamos você ao especialista ideal. Identificamos terapeutas qualificados para suas necessidades específicas. Inicie a terapia com confiança e conveniência. Encontre a terapia certa e o especialista perfeito para sua jornada de evolução e crescimento pessoal.
             </p>

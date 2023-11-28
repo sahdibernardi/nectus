@@ -603,12 +603,12 @@ body {
   background-color: none;
   border: 1px solid var(--nectus-purple);
   border-radius: 50px;
-  font-size: 0.9rem;
+  font-size: 0.65rem;
   font-weight: 400;
   color: var(--nectus-purple);
   margin-top: 30px;
-  padding: 10px;
-  width: 200px;
+  padding: 3px 10px 3px 10px;
+  width: 150px;
   transition: 0.5s;
 }
 
@@ -689,7 +689,6 @@ body {
   justify-content: center;
   color: var(--nectus-purple);
   margin-top: 50px;
-  font-size: 0.8rem;
 }
 
 .s12-div {
@@ -1194,9 +1193,9 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 900px;
-    font-size: 2.3rem;
-    line-height: 2.9rem;
+    height: 800px;
+    font-size: 2.2rem;
+    line-height: 2.7rem;
   }
 
   .s10-graphic-logo {
@@ -1224,39 +1223,44 @@ body {
   }
 
   #s10-btn {
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+
+  .s11-title {
+    font-size: 0.8rem;
+    margin-bottom: 40px;
   }
 
   .s11-box {
-    min-width: 800px;
-    max-height: 380px;
-    min-height: 250px;
+    min-width: 650px;
+    max-height: 80px;
+    min-height: 80px;
+    margin: 6px;
+    border-radius: 65px;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 0px, 100px, 0px, 100px;
+    padding: 0px, 20px, 0px, 20px;
   }
 
   .s11-box-left {
     margin: 0px;
-    padding: 0px;
+    padding: 0px 0px 0px 10px;
     max-height: 200px;
-    min-width: 400px;
-  }
-
-  .s11-box-right {
-    max-height: 200px;
-    margin: 0px;
-    padding: 0px;
+    min-width: 260px;
   }
 
   .s11-box-title {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .s11-box-subtitle {
-    font-size: 1.3rem;
-    padding-right: 100px;
+    font-size: 0.85rem;
+    line-height: 1rem;
+    max-width: 200px;
+    margin: 0;
+    margin-bottom: 10px;
   }
 
   .btn-2 {
@@ -1264,18 +1268,18 @@ body {
     border: 1px solid var(--white);
     border-radius: 50px;
     color: var(--white);
-    margin-top: 20px;
-    padding: 10px;
-    width: 300px;
+    margin-top: 10px;
+    padding: 3px 10px 3px 10px;
+    width: 200px;
     margin-bottom: 0px;
+    font-size: 0.66rem;
   }
 
   .btn-2:hover,
   .btn-2:focus {
     box-shadow: inset 0 -3.25em 0 0 var(--nectus-green);
     border: 1px solid transparent;
-    color: var(--nectus-purple);
-    font-weight: 500;
+    color: var(--black);
   }
 
   .s11-btn {
@@ -1287,12 +1291,15 @@ body {
   }
 
   .s11-box-right {
+    margin: 0px;
+    padding: 0px;
     margin-top: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 250px;
+    font-size: 0.7rem;
+    font-weight: 300;
   }
 
   .s11-bigmargin {
