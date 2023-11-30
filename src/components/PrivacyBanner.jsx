@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import nectusLogo from '../assets/nectusLogoHorizontal.png'
 import { Link } from 'react-router-dom';
 
 function PrivacyBanner() {
