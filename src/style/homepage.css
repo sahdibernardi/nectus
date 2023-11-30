@@ -960,33 +960,39 @@ body {
 
   .s7 {
     flex-direction: row;
-    min-height: 800px;
+    min-height: 750px;
+    background-size:contain;
   }
 
   .s7-left {
     text-align: left !important;
-    min-width: 450px;
+    min-width: 380px;
     align-items: start;
-    font-size: 1.1rem;
+    font-size: 0.85rem;
+    line-height: 1.6rem;
     font-weight: 300;
   }
 
   #s7-title {
-    font-size: 2.5rem;
-    line-height: 3rem;
+    font-size: 2.2rem;
+    line-height: 2.6rem;
     max-width: 400px;
     font-weight: 700;
   }
 
   #s7-subtitle {
-    font-size: 2.5rem;
-    line-height: 3rem;
-    margin-bottom: 30px;
+    font-size: 2.2rem;
+    line-height: 2.6rem;
+    margin-bottom: 10px;
   }
 
   .s7-right {
+    justify-content: start;
     margin-bottom: 0px;
-    min-width: 450px;
+    margin-right: -30px;
+    min-width: 390px;
+    min-height: 420px;
+    padding: 0px;
   }
 
   .s7-it {
@@ -996,17 +1002,17 @@ body {
     justify-items: center;
     align-items: center;
     align-content: center;
-    padding: 0.7rem;
+    padding: 6px;
+    margin: 0px;
   }
   
   .s7-it-number {
     background-color: var(--nectus-green);
     border-radius: 80px;
-    font-size: 2.5rem;
-    line-height: 1.5rem;
+    font-size: 2.3rem;
     font-weight: 700;
-    height: 100px;
-    width: 150px;
+    height: 80px;
+    width: 135px;
     margin-right: -50px;
     padding: 20px 100px 20px 0px;
     color: var(--black);
@@ -1015,14 +1021,18 @@ body {
   .s7-it-text {
     background-color: var(--nectus-purple-light);
     border-radius: 80px;
-    font-size: 0.8rem;
-    line-height: 0.9rem;
+    font-size: 0.7rem;
+    line-height: 1.1rem;
     font-weight: 700;
-    height: 100px;
-    width: 230px;
+    height: 80px;
+    width: 215px;
     margin-left: -70px;
-    padding: 20px 30px 20px 30px;
+    padding: 20px 10px 20px 30px;
     color: var(--white);
+  }
+
+  .s7-it-in-text {
+    margin-left: 0px;
   }
 
   .s8 {

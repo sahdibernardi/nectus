@@ -173,7 +173,7 @@ function Homepage() {
     <div className='s7'>
       <div className='s7-left'>
         <span id="s7-title">
-          Separar o pessoal do profissional?
+          Separar o pessoal <br></br>do profissional?
         </span>
         <span id="s7-subtitle">Impossível</span>
         <p className='s7-l-text'>
@@ -190,8 +190,8 @@ function Homepage() {
           </div>
           <SlideRightSection>
             <div className='s7-it-text'>
-              <span>
-                dizem que o estresse ou frustração afeta de maneira negativa a qualidade do trabalho.
+              <span className='s7-it-in-text'>
+                dizem que o estresse ou <br></br>frustração afeta de maneira negativa a qualidade do trabalho.
               </span>
             </div>
           </SlideRightSection>
@@ -202,7 +202,7 @@ function Homepage() {
           </div>
           <SlideRightSection>
             <div className='s7-it-text'>
-            <span>
+            <span className='s7-it-in-text'>
               dizem que o burnout no trabalho impacta negativamente seus relacionamentos pessoais.
             </span>
             </div>
@@ -214,7 +214,7 @@ function Homepage() {
           </div>
           <SlideRightSection>
           <div className='s7-it-text'>
-          <span>
+          <span className='s7-it-in-text'>
             deles afirmam estar frequentemente estressados.
           </span>
           </div>
