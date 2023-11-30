@@ -38,12 +38,14 @@ function Homepage() {
     <div className='s2'>
       <img alt='graphic nectus logo' src={ graphicNectusLogo } className='graphic-logo' id="graphic-left"/>
       <div className='s2-title'>
-        <span>
-          A Nectus é a comunidade que cuida do <span id="s2-hl">bem-estar e qualidade de vida através da visão integrada de saúde mental e desenvolvimento humano.</span>
-        </span>
-        <p className='s2-text'>
-          Potencializamos jornadas pessoais e profissionais através do direcionamento assertivo e com as melhores ferramentas para te ajudar a evoluir na vida e no trabalho, além de auxiliar no processo de ativar os potenciais que já existem dentro de você.
-        </p>
+        <div className='s2-title-and-text'>
+          <span>
+            A Nectus é a comunidade que cuida do <span id="s2-hl">bem-estar e qualidade de vida através da visão integrada de saúde mental e desenvolvimento humano.</span>
+          </span>
+          <p className='s2-text'>
+            Potencializamos jornadas pessoais e profissionais através do direcionamento assertivo e com as melhores ferramentas para te ajudar a evoluir na vida e no trabalho, além de auxiliar no processo de ativar os potenciais que já existem dentro de você.
+          </p>
+        </div>
       </div>
       <img alt='graphic nectus logo' src={ graphicNectusLogo } className='graphic-logo' id="graphic-right"/>
     </div>
@@ -389,12 +391,14 @@ function Homepage() {
     <div className='s10'>
         <img alt='graphic nectus logo' src={ graphicNectusLogo } className='s10-graphic-logo' id="s10-logo-right"/>
       <div className='s10-title'>
-        <span>
-          <span id="s10-hl">É possível mudar o rumo dessa história.</span> Faça parte do movimento de <span id="s10-hl-2">transformação humana global<br></br> junto a agenda 2030 da ONU</span><br></br> e torne a sua empresa líder em cuidar da saúde das pessoas colaboradoras.
-        </span>
-        <button className='btn-1' id="s10-btn" onClick={() => scrollToSection( 's12', 'nearest')}>
-          Conheça agora
-        </button>
+        <div className='s10-title-and-text'>
+          <span>
+            <span id="s10-hl">É possível mudar o rumo dessa história.</span> Faça parte do movimento de <span id="s10-hl-2">transformação humana global<br></br> junto a agenda 2030 da ONU</span><br></br> e torne a sua empresa líder em cuidar da saúde das pessoas colaboradoras.
+          </span>
+          <button className='btn-1' id="s10-btn" onClick={() => scrollToSection( 's12', 'nearest')}>
+            Conheça agora
+          </button>
+        </div>
       </div>
       <img alt='graphic nectus logo' src={ graphicNectusLogo } className='s10-graphic-logo' id="s10-logo-left"/>
     </div>

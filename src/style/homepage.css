@@ -404,6 +404,7 @@ body {
   margin-left: -50px;
   margin-right: -50px;
   object-fit: cover;
+  height: 400px;
 }
 
 .s8-hl {
@@ -790,6 +791,16 @@ body {
     padding: 0px;
     margin-left: -35px;
     margin-right: -35px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .s2-title-and-text {
+    align-items: center;
+    max-width: 690px;
   }
 
   .s2-text {
@@ -1220,6 +1231,12 @@ body {
     flex-direction: column;
     align-items: center;
     padding-top: 200px;
+    width: 100%;
+  }
+
+  .s10-title-and-text {
+    align-items: center;
+    max-width: 730px;
   }
 
   #s10-btn {
