@@ -759,7 +759,7 @@ body {
 @media screen and (min-width: 768px) {
   .s1 {
     align-items: center;
-    height: 670px;
+    height: calc(100vh - 100px);
   }
 
   .nectus-logo {
@@ -1510,7 +1510,7 @@ body {
   }
 
   .s12-text {
-    max-width: 350px;
+    max-width: 300px;
     font-size: 2.2rem;
     text-align: left;
     line-height: 2.6rem;
@@ -1529,7 +1529,7 @@ body {
   }
 
   .s12-form-title {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 700;
     color: var(--nectus-purple-light);
     text-align: left;

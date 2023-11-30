@@ -7,6 +7,7 @@ import './style/articles.css'
 import './style/forms.css'
 import './style/contact.css'
 import './style/pageNotFound.css'
+import './style/privacyBanner.css'
 
 import Homepage from './pages/Homepage'
 import People from './pages/People'

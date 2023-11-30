@@ -20,6 +20,7 @@ import SlideUpImages from '../utils/slideUpImages'
 import scrollToSection from '../utils/helpers'
 import SlideRightSection from '../utils/slideRightSection'
 import MailchimpFormContainer from '../components/MailchimpFormContainer'
+import PrivacyBanner from '../components/PrivacyBanner'
 
 
 function Homepage() {
@@ -27,6 +28,7 @@ function Homepage() {
   return (
     <>
     <Header />
+    <PrivacyBanner />
     <div className="s1">
         <img alt="nectus headline" src={ headline } className='s1-headline' />
         <img alt="nectus logo" src={ nectusLogo } className='nectus-logo' />

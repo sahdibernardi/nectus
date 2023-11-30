@@ -11,7 +11,7 @@ function Companies() {
   return (
     <>
     <Header />
-      <ContactPage buttonText='Para Empresas' classProp='companies' title="Empresas de sucesso cuidam dos colaboradores" subtitle="Comece hoje." formTitle="Agende agora e conheça os benefícios e programas para a sua empresa"/>
+      <ContactPage buttonText='Para Empresas' classProp='companies' title="Empresas de sucesso cuidam dos colaboradores." subtitle="Comece hoje." formTitle="Agende agora e conheça os benefícios e programas para a sua empresa."/>
     <Footer />
     </>
   );
