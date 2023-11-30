@@ -1104,19 +1104,26 @@ body {
     height: 1000px;
   }
 
+  .s9-icon {
+    width: 80px;
+    margin-bottom: 10px;
+  }
+
   .s9-boxes {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-right: 10px;
+    line-height: 0rem;
+
   }
 
   .s9-box-up {
-    border-radius: 50px;
+    border-radius: 30px;
     color: var(--white);
-    width: 300px;
-    height: 240px;
+    width: 215px;
+    height: 154px;
     z-index: 3;
   }
   
@@ -1126,39 +1133,39 @@ body {
     align-items: center;
     justify-content: flex-start;
     background: linear-gradient(180deg, #8D55E7 0%, #CA53EA 100%);
-    border-radius: 50px;
+    border-radius: 30px;
     color: var(--white);
-    width: 220px;
-    height: 470px;
+    width: 175px;
+    height: 310px;
     margin-top: -100px;
-    padding: 120px 40px 20px 40px;
+    padding: 100px 20px 20px 20px;
   }
   
   .s9-title {
-    font-size: 24px;
+    font-size: 1.1rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 28.5px;
   }
   
   .s9-li {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   
   .s9-list {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 21.25px;
+    font-size: 0.7rem;
+    font-weight: 300;
+    line-height: 1rem;
     margin-bottom: 20px;
     margin-left: 8px;
   }
   
   .s9-comment {
-    font-size: 11px;
-    font-weight: 400;
-    line-height: 21.25px;
+    font-size: 0.6rem;
+    font-weight: 200;
+    line-height: 1rem;
     margin-bottom: 20px;
+    margin-left: 5px;
   }
 
   .s9-left {

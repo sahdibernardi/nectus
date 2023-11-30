@@ -250,7 +250,7 @@ function Homepage() {
       <div className='s9-left'>
         <div className='s9-boxes'>
           <div className='s9-box-up'>
-            <img alt='depression icon' src={vectorGroup} />
+            <img alt='depression icon' src={vectorGroup} className='s9-icon'/>
             <span className='s9-title'>
               Depressão
             </span>
@@ -287,7 +287,7 @@ function Homepage() {
         </div>
         <div className='s9-boxes'>
           <div className='s9-box-up'>
-            <img alt='anxiety icon' src={vectorGroup2} />
+            <img alt='anxiety icon' src={vectorGroup2} className='s9-icon' />
             <span className='s9-title'>
               Ansiedade
             </span>
@@ -299,7 +299,7 @@ function Homepage() {
                 O Brasil lidera o ranking do país mais ansioso do mundo
               </span>
               <span className='s9-comment'>
-                (OMS)
+               (OMS)
               </span>
             </div>
             <div className='s9-li'>
