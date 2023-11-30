@@ -1032,25 +1032,30 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 800px;
+    min-height: 930px;
   }
 
   .s8-text {
     font-size: 0.7rem;
-    width: 250px;
-    margin-left: -380px;
-    margin-top: 240px;
-    margin-right: 100px;
+    width: 230px;
+    margin-left: -520px;
+    margin-top: 340px;
+    margin-right: 280px;
     position: relative;
     z-index: 50;
+    font-weight: 300;
+  }
+
+  #s8-first-txt {
+    margin-bottom: 20px;
   }
 
   .s8-title {
-    font-size: 1.7rem;
-    line-height: 1.7rem;
-    width: 500px;
-    margin-right: 200px;
-    margin-top: -100px;
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+    width: 550px;
+    margin-right: 180px;
+    margin-bottom: -35px;
     z-index: 6;
   }
 
@@ -1064,16 +1069,18 @@ body {
   }
 
   .s8-bottom {
-    height: 630px;
+    height: 1000px;
     background: none;
     display: block;
     margin: 0;
+    margin-right: 30px;
+    margin-bottom: -85px;
   }
   
   .s8-bottom::before {
     content: "";
-    height: 800px;
-    width: 800px;
+    height: 1020px;
+    width: 1020px;
     margin: 0;
     margin-right: 250px;
     background-image: url('/src/assets/BigGreenLogo.png');
@@ -1085,18 +1092,26 @@ body {
     align-items: center;
   }
 
+  .s8-image {
+    margin-left: -50px;
+    margin-right: -50px;
+    margin-bottom: -20px;
+    object-fit: cover;
+    height: 540px;
+  }
+
   .s8-circle {
-    height: 370px;
-    width: 370px;
-    margin-top: -600px;
-    margin-left: 200px;
+    height: 475px;
+    width: 475px;
+    margin-top: -760px;
+    margin-left: 250px;
   }
 
   .s8-div {
     display: flex;
     flex-direction: row-reverse;
     align-items: space-evenly;
-    width: 1000px;
+    width: 100%;
   }
 
   .s9 {

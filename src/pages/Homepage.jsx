@@ -232,7 +232,7 @@ function Homepage() {
       </div>
       <div className='s8-div'>
         <div className='s8-text'>
-          <p>
+          <p id='s8-first-txt'>
             Emoções afetam diversas áreas da vida, positiva ou negativamente . O que acontece na vida pessoal reflete na profissional e vice versa. É preciso transcender o desenvolvimento humano através da saúde integral frente às esferas do indivíduo e das empresas.
           </p>
           <p>
