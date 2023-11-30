@@ -71,9 +71,14 @@ function Homepage() {
     <div className='s5'>
     <div className='s5-div'>
         <div className='s5-title-div'>
-          <span className='s5-title'>
-            QUEM SOMOS?
-          </span>
+          { window.innerWidth > 768 ?
+            <span className='s5-title'>
+              QUEM <br></br> SOMOS?
+            </span>
+          : <span className='s5-title'>
+              QUEM SOMOS?
+            </span>
+          }
         </div>
         <div className='s5-subtitle'>
           <div className='s5-image-bg'>

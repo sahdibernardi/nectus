@@ -876,17 +876,22 @@ body {
   }
 
   .s5-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between !important;
     max-width: 200px;
-    padding: 0;
+    padding: 0px !important;
+    margin: 35px;
   }
 
   .s5-title-div {
     display: flex;
     flex-direction: row;
     justify-content: start;
-    align-items: center;
-    min-width: 250px;
+    height: 40px;
+    width: 214px;
     font-size: 0.7rem;
+    margin-bottom: -30px;
   }
 
   .s5-title {
@@ -935,11 +940,13 @@ body {
   .s5-text-div {
     z-index: none;
     margin-top: -200px;
-    height: 350px;
+    height: 200px;
+    width: 180px;
     display: flex;
     border-radius: 30px;
     justify-content: flex-start;
     padding-top: 250px;
+    padding: 250px 15px 50px 15px;
   }
 
   .s5-text {
