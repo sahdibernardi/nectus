@@ -8,7 +8,9 @@ function Footer() {
   const navigate = useNavigate();
 
   const handleClick = (section, position) => {
-    if (location.pathname !== '/') {
+    if (section === '/terms' || section === '/privacy') {
+      navigate(`${section}`);
+    } else if (location.pathname !== '/') {
       navigate('/');
     } else {
       scrollToSection(section, position);
@@ -40,14 +42,17 @@ function Footer() {
           <button className="ft-menu-btn" onClick={() => handleClick('s5', 'end')}>
             Quem Somos
           </button>
-          <button className="ft-menu-btn" onClick={() => handleClick('s6', 'center')}>
-            Programas
-          </button>
           <button className="ft-menu-btn" onClick={() => handleClick('s11', 'start')}>
             Serviços
           </button>
           <button className="ft-menu-btn" onClick={() => handleClick('card-slider', 'center')}>
             Artigos
+          </button>
+          <button className="ft-menu-btn" onClick={() => handleClick('/terms', 'start')}>
+            Termos de Uso
+          </button>
+          <button className="ft-menu-btn" onClick={() => handleClick('/privacy', 'start')}>
+            Política de Privacidade
           </button>
         </div>
         <div className="ft-btns">

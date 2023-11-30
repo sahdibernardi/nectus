@@ -14,6 +14,8 @@ import People from './pages/People'
 import Professionals from './pages/Professionals'
 import Companies from './pages/Companies'
 import PageNotFound from './pages/PageNotFound'
+import Privacy from './pages/Privacy'
+import Terms from './pages/Terms'
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
            <Route Component = { People }  path="/for-people"/>
            <Route Component = { Professionals }  path="/for-professionals" />
            <Route Component = { Companies }  path="/for-companies" />
+           <Route Component = { Privacy }  path="/privacy" />
+           <Route Component = { Terms }  path="/terms" />
            <Route path="*" Component={PageNotFound} />
            <Route Component={PageNotFound} />
         </Routes>

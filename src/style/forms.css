@@ -77,6 +77,15 @@ select {
   text-align: center;
 }
 
+#form-privacy {
+  font-size: 0.6rem;
+  font-weight: 500;
+  color: var(--nectus-purple-light);
+  line-height: 0.8rem;
+  text-align: left;
+  margin: 5px 0px 5px 5px;
+}
+
 
 
 

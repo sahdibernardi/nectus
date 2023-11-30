@@ -54,6 +54,11 @@
   color: var(--black);
 }
 
+.link {
+  color: var(--nectus-purple-light);
+  font-weight: 600;
+}
+
 
 
 

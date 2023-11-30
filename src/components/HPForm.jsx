@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import PropTypes from 'prop-types';
+import { Link } from "react-router-dom";
 
 function HPForm ({ status, message, onValidated }) {
   const [name, setName] = useState('');
@@ -128,6 +129,7 @@ function HPForm ({ status, message, onValidated }) {
                 onChange={(e) => setReason(e.target.value)}
                 value={reason}
               />
+            <span id="form-privacy">Estou ciente e concordo que ao enviar este formulário estarei concordando com os <Link to="/terms" className="link">Termos de Uso</Link> e a <Link to="/privacy" className="link">Política de Privacidade</Link> da Nectus.</span>
             <button className='form-btn' type="submit">
               Agendar agora
             </button>
