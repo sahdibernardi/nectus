@@ -69,9 +69,9 @@ function Homepage() {
       </div>
     </div>
     <div className='s5'>
-      <div className='s5-div'>
+    <div className='s5-div'>
         <div className='s5-title-div'>
-          <span className='s5-title' id='s5-who'>
+          <span className='s5-title'>
             QUEM SOMOS?
           </span>
         </div>
@@ -81,7 +81,6 @@ function Homepage() {
               <img alt='smiling guy' src={ smilingGuy } className='s5-img'/>
             </SlideUpImages>
           </div>
-          <div className='s5-bg-div'>
           <div className='s5-sb-text'>
             <span id='s4-text'>
             Estamos aqui para <span id="s2-hl">cuidar de você por completo.</span>
@@ -92,7 +91,6 @@ function Homepage() {
           <p className='s5-text'>
             Cuidamos da saúde de pessoas e empresas com gestão inteligente.  Visionamos bem-estar e engajamento que alavancam a produtividade, gerando ambientes  de felicidade com maior senso de pertencimento. Visão integral em saúde organizacional focada em resultados e sucesso a longo prazo.
           </p>
-        </div>
         </div>
       </div>
       <div className='s5-div'>
@@ -392,9 +390,13 @@ function Homepage() {
         <img alt='graphic nectus logo' src={ graphicNectusLogo } className='s10-graphic-logo' id="s10-logo-right"/>
       <div className='s10-title'>
         <div className='s10-title-and-text'>
-          <span>
-            <span id="s10-hl">É possível mudar o rumo dessa história.</span> Faça parte do movimento de <span id="s10-hl-2">transformação humana global<br></br> junto a agenda 2030 da ONU</span><br></br> e torne a sua empresa líder em cuidar da saúde das pessoas colaboradoras.
-          </span>
+          { window.innerWidth > 768 ? 
+            <span>
+              <span id="s10-hl">É possível mudar o rumo dessa história.</span> Faça parte do movimento de <span id="s10-hl-2">transformação humana global<br></br> junto a agenda 2030 da ONU</span><br></br> e torne a sua empresa líder em cuidar da saúde das pessoas colaboradoras.
+            </span> 
+          : <span>
+            <span id="s10-hl">É possível mudar o rumo dessa história.</span> Faça parte do movimento de <span id="s10-hl-2">transformação humana global junto a agenda 2030 da ONU</span> e torne a sua empresa líder em cuidar da saúde das pessoas colaboradoras.
+          </span>}
           <button className='btn-1' id="s10-btn" onClick={() => scrollToSection( 's12', 'nearest')}>
             Conheça agora
           </button>

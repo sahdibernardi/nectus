@@ -125,7 +125,7 @@ body {
   font-size: 1.2rem;
   line-height: 1.5rem;
   color: var(--nectus-purple-light);
-  height: 350px;
+  height: 400px;
   width: 280px;
 }
 
@@ -178,7 +178,7 @@ body {
 .s5-subtitle {
   display: flex;
   flex-direction: row;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .s5-img {
@@ -890,7 +890,7 @@ body {
   }
 
   .s5-title {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     max-width: 90px;
   }
 
