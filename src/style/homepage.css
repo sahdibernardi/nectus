@@ -881,7 +881,26 @@ body {
     justify-content: space-between !important;
     max-width: 200px;
     padding: 0px !important;
-    margin: 35px;
+    margin: 32px;
+  }
+
+  .s5-logo-bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 165px;
+    width: 165px;
+    border-radius: 100%;
+    background: linear-gradient(298deg, #CA53EA 0%, #8D55E7 100%);
+    z-index: 3;
+    backdrop-filter: blur(10px);
+  }
+
+  .s5-logo {
+    height: 110px;
+    width: 110px;
+    padding: 10px;
   }
 
   .s5-title-div {
@@ -891,7 +910,7 @@ body {
     height: 40px;
     width: 214px;
     font-size: 0.7rem;
-    margin-bottom: -30px;
+    margin-bottom: -20px;
   }
 
   .s5-title {
@@ -912,15 +931,15 @@ body {
   }
 
   .s5-image-bg {
-    height: 160px;
-    width: 160px;
+    height: 165px;
+    width: 165px;
     border-radius: 100%;
     backdrop-filter: blur(10px);
   }
 
   .s5-img {
-    height: 190px;
-    width: 160px;
+    height: 195px;
+    width: 165px;
   }
 
   .sb-bg-div {
@@ -930,34 +949,36 @@ body {
 
   .s5-sb-text {
     z-index: 4;
-    padding: 10px;
-    margin-bottom: 0;
+    padding: 0px;
+    margin-bottom: -30px;
+    margin-top: 20px;
+    margin-left: 5px;
     padding-bottom: 0;
     font-size: 1.1rem;
-    line-height: 1.2rem;
+    line-height: 1.3rem;
   }
 
   .s5-text-div {
     z-index: none;
-    margin-top: -200px;
-    height: 200px;
-    width: 180px;
+    margin-top: -170px;
+    height: 180px;
+    width: 170px;
     display: flex;
     border-radius: 30px;
     justify-content: flex-start;
     padding-top: 250px;
-    padding: 250px 15px 50px 15px;
+    padding: 250px 20px 50px 20px;
   }
 
   .s5-text {
     margin: 0;
-    padding-top: 0;
+    padding: 0;
     line-height: 1rem;
-    font-size: 0.7rem;
+    font-size: 0.67rem;
     font-weight: 300;
     color: var(--black);
-    padding-left: 10px;
-    padding-right: 10px;
+    margin-top: -30px;
+    padding-right: 5px;
   }
 
   .s6 {
