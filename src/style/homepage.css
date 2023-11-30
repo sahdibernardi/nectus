@@ -529,17 +529,17 @@ body {
 }
 
 .s9-r-title {
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 28.5px;
+  line-height: 2.25rem;
   margin: 0;
   color: var(--nectus-purple);
 }
 
 .s9-r-bold {
   font-weight: 700;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 .s9-r-point {
@@ -1101,7 +1101,7 @@ body {
 
   .s9 {
     margin-top: -247px;
-    height: 1000px;
+    height: 700px;
   }
 
   .s9-icon {
@@ -1114,9 +1114,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-right: 10px;
+    margin: 0px 5px 0px 0px;
     line-height: 0rem;
-
   }
 
   .s9-box-up {
@@ -1138,7 +1137,7 @@ body {
     width: 175px;
     height: 310px;
     margin-top: -100px;
-    padding: 100px 20px 20px 20px;
+    padding: 120px 20px 0px 20px;
   }
   
   .s9-title {
@@ -1169,21 +1168,37 @@ body {
   }
 
   .s9-left {
-    min-width: 600px;
-    margin-right: 15px;
+    min-width: 400px;
   }
 
   .s9-right {
-    width: 400px;
+    width: 300px;
     text-align: left;
+    font-size: 1rem;
+    margin-left: 5px;
+  }
+
+  .s9-icon-black {
+    margin-right: 5px;
+    height: 8px;
+  }
+
+  .s9-r-title {
+    font-size: 1.15rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.35rem;
+    margin: 0;
+    color: var(--nectus-purple);
   }
 
   .s9-r-bold {
-    margin-bottom: 0px;
+    font-weight: 700;
+    margin-bottom: -10px;
   }
 
   #s9-r-text {
-    font-size: 0.9rem;
+    font-size: 0.66rem;
     font-weight: 300;
     margin-bottom: 0px;
     margin-top: 30px;
@@ -1191,19 +1206,19 @@ body {
 
   .s9-r-box {
     text-align: left;
-    margin: 20px 0px 20px 0px;
+    font-size: 0.6rem;
+    margin: 12px 0px 12px 0px;
   }
 
   .s9-r-point {
     font-weight: 700;
-    font-size: 0.9rem;
+    font-size: 0.66rem;
   }
   
   .s9-font {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     font-weight: 400;
     line-height: 21.25px;
-    margin-top: 0px;
   }
 
   .s10 {
