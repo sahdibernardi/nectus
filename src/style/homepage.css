@@ -955,7 +955,74 @@ body {
 
   .s6 {
     margin-top: 50px;
+    min-height: 600px;
     background-color: var(--white);
+  }
+
+  .pg-card {
+    padding: 0px;
+    width: 260px;
+    height: 395px;
+    margin: 20px 0px 50px 0px;
+  }
+
+  .pg-title {
+    font-size: 1.1rem;
+    line-height: 1.2rem;
+    font-weight: 700;
+    margin: 0px;
+  }
+  
+  .pg-hl {
+    font-size: 0.73rem;
+    font-weight: 700;
+    color: var(--nectus-purple);
+    margin-top: -15px;
+  }
+  
+  .pg-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 80px;
+    margin-top: -22px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .pg-text {
+    font-size: 0.72rem;
+    line-height: 1rem;
+    font-weight: 300;
+    color: var(--black);
+    margin-top: 0px;
+    max-width: 200px;
+  }
+  
+  .pg-img {
+    height: 210px;
+    width: 210px;
+    border-radius: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .pg-btn {
+    background-color: none;
+    border: 1px solid var(--nectus-purple);
+    border-radius: 50px;
+    font-size: 0.6rem;
+    font-weight: 300;
+    color: var(--nectus-purple);
+    margin: 0px;
+    transition: 0.5s;
+    padding: 3px 12px;
+  }
+  
+  .pg-btn:hover,
+  .pg-btn:focus {
+    box-shadow: inset 0 -3.25em 0 0 var(--nectus-purple);
+    border: 2px solid transparent;
+    color: var(--white);
   }
 
   .s7 {

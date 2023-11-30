@@ -155,7 +155,7 @@ function Homepage() {
           sectionId='connects'
         />
         <ProgramCard
-          title="Envolves"
+          title="Evolves"
           description="Solução para empresas"
           text="Cuidando das mentes, impulsionando resultados."
           imageLink='./envolves.png'
