@@ -504,7 +504,7 @@ function Homepage() {
           <span className='s12-form-title'>
             Agende uma conversa com a gente.
           </span>
-          <MailchimpFormContainer />
+          <MailchimpFormContainer type={'homepage'} />
         </div>
       </div>
       <div className='s12-img-div'>

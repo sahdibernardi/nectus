@@ -15,9 +15,9 @@ function ContactPage ({ buttonText, classProp, title, subtitle, formTitle }) {
           <img alt="nectus logo" src={ nectusLogo } className='nectus-logo' />
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none" className='down-arrow ' id="s1-down-arrow" onClick={() => scrollToSection( 'contact-form-div', 'nearest')}>
-            <path d="M10 19L23 31L36 19" stroke="white"/>
-            <circle cx="23" cy="23" r="22.5" stroke="white"/>
-          </svg>
+          <path d="M10 19L23 31L36 19" stroke="white"/>
+          <circle cx="23" cy="23" r="22.5" stroke="white"/>
+        </svg>
       </div>
       <div className='contact-form-div'>
         <div className='s12-text contact-form-title'>
@@ -26,11 +26,10 @@ function ContactPage ({ buttonText, classProp, title, subtitle, formTitle }) {
           </span>
         </div>
         <div className="s12-right-div">
-          <span className='s12-form-title' >
+          <span className='contact-form-text' >
             {formTitle}
           </span>
-          {/* <HPForm /> */}
-          <MailchimpFormContainer />
+          <MailchimpFormContainer type={classProp}/>
         </div>
       </div>
       </>

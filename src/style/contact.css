@@ -63,6 +63,13 @@
   font-size: 0.6rem;
 }
 
+.contact-form-text {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--nectus-purple-light);
+  text-align: left;
+}
+
 .contact-form-div {
   font-family: poppins;
   display: flex;
@@ -100,6 +107,16 @@
     align-items: start;
     height: 500px;
     font-size: 2.3rem;
+  }
+
+  .contact-form-text {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--nectus-purple-light);
+    text-align: left;
+    margin-left: -40px;
+    margin-bottom: 1.2rem;
+    max-width: 420px;
   }
 }
 
