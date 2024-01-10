@@ -238,7 +238,7 @@ function Homepage() {
       <div className='s8-div'>
         <div className='s8-text'>
           <p id='s8-first-txt'>
-            Emoções afetam diversas áreas da vida, positiva ou negativamente . O que acontece na vida pessoal reflete na profissional e vice versa. É preciso transcender o desenvolvimento humano através da saúde integral frente às esferas do indivíduo e das empresas.
+            Emoções afetam diversas áreas da vida, positiva ou negativamente. O que acontece na vida pessoal reflete na profissional e vice versa. É preciso transcender o desenvolvimento humano através da saúde integral frente às esferas do indivíduo e das empresas.
           </p>
           <p>
             A Nectus une ferramentas de jornada com terapias tradicionais e holísticas para fortalecer a individualidade saudável, potencializar capacidades humanas e profissionais,  em prol de desenvolver aprendizagem e direcionar a conexão sobre si, e com o outro.
@@ -404,9 +404,11 @@ function Homepage() {
           : <span>
             <span id="s10-hl">É possível mudar o rumo dessa história.</span> Faça parte do movimento de <span id="s10-hl-2">transformação humana global junto a agenda 2030 da ONU</span> e torne a sua empresa líder em cuidar da saúde das pessoas colaboradoras.
           </span>}
+          <div>
           <button className='btn-1' id="s10-btn" onClick={() => scrollToSection( 's12', 'nearest')}>
             Conheça agora
           </button>
+          </div>
         </div>
       </div>
       <img alt='graphic nectus logo' src={ graphicNectusLogo } className='s10-graphic-logo' id="s10-logo-left"/>

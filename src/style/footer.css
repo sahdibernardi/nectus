@@ -122,6 +122,11 @@
   height: 200px;
 }
 
+.ft-down-text {
+  max-width: 600px;
+  line-height: 1rem;
+}
+
 
 
 
@@ -227,7 +232,7 @@
     justify-content: space-between;
     padding: 0 230px 0 230px;
     font-size: 0.59rem;
-    margin-top: -50px;
+    margin-top: -20px;
     line-height: 0.5rem;
   }
 

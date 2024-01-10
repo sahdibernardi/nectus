@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import graphicNectusLogo from '../assets/graphic-logo.png'
+import PrivacyBanner from "../components/PrivacyBanner";
 
 function PageNotFound() {
     useEffect(() => {
@@ -11,6 +12,7 @@ function PageNotFound() {
     return (
         <>
         <Header />
+        <PrivacyBanner />
         <div className='s2'>
             <img alt='graphic nectus logo' src={ graphicNectusLogo } className='graphic-logo' id="graphic-left"/>
             <div className='s2-title'>

@@ -109,11 +109,12 @@ function Footer() {
       </div>
     </div>
     <div className="ft-down">
-      <div>
+      <div className="ft-down-text">
         <p>
           Copyright © 2022 Nectus Tecnologia Ltda. All rights reserved.
         </p>
         <p>CNPJ: 48.200.894/0001-90</p>
+        <p><b>Atenção:</b> Este site não oferece tratamento ou aconselhamento imediato para pessoas em crise suicida. Em caso de crise, ligue para 188 (CVV) ou acesse o site <Link to={'https://www.cvv.org.br'} target="_blank">www.cvv.org.br</Link>. Em caso de emergência, procure atendimento no hospital mais próximo</p>
       </div>
       <Social />
     </div>
