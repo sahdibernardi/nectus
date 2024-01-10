@@ -22,7 +22,7 @@ function PrivacyBanner() {
     {!isPrivacyAccepted && (
     <div className="privacy-banner">
       <div>
-        Utilizamos cookies para melhorar a sua experiência no site. Consulte a nossa <Link to="/privacy" id="privacy-link">Política de Privacidade</Link> para mais informações.
+      Nosso site usa cookies para melhorar sua experiência. Ao clicar em "Concordo", você concorda com nosso uso de cookies.
       </div>
       <button className="privacy-banner-btn" onClick={togglePrivacy}>
         Aceito
