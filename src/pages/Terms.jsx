@@ -26,7 +26,7 @@ function Terms() {
                     Nossos Termos e Condições Gerais de Uso do site estão em constantemente melhoria para melhor atendê-los! Você pode baixá-los clicando <Link to="/public/TermosDeUsoNectus.pdf" download target="_blank" className="link">aqui</Link>.
                 </p>
                 <p className='s2-text'>
-                    A Nectus é a sua parceira. Para mais dúvidas ou sugestões, sobre sobre os nossos Termos de Uso, entre em contato com o nosso suporte em suporte@nectusapp.com!
+                    A Nectus é a sua parceira. Para mais dúvidas ou sugestões, sobre os nossos Termos de Uso, entre em contato com o nosso suporte em suporte@nectusapp.com!
                 </p>
                 <p className='s2-text'>
                     Ficaremos felizes em lhe atender!✨

@@ -180,7 +180,7 @@ function Homepage() {
         <span id="s7-title">
           Separar o pessoal <br></br>do profissional?
         </span>
-        <span id="s7-subtitle">Impossível</span>
+        <span id="s7-subtitle">Impossível.</span>
         <p className='s7-l-text'>
           Existe uma crença de que é possível dividir a personalidade em duas: uma pessoal e outra profissional. Somos seres integrados, que se fragmentam ao longo do tempo. Essa fragmentação, causada pelas bagagens ao longo da vida e,  intensidade da rotina, afeta a saúde física, mental e emocional.
         </p>
