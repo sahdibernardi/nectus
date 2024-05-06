@@ -23,7 +23,7 @@ function Privacy() {
                 </span>
                 </span>
                 <p className='s2-text'>
-                    Aqui na Nectus, nós seguimos as melhores práticas de privacidade e segurança para garantir a proteção dos seus dados pessoais. Por isso, nossa Política de Privacidade e Tratamento de Dados está em constante melhoria e atualização, e você pode baixá-la clicando <Link href={'public/PoliticaDePrivacidadeNectus.pdf'} target="_blank"  rel="noopener noreferrer" locale={false} download>aqui</Link>.
+                    Aqui na Nectus, nós seguimos as melhores práticas de privacidade e segurança para garantir a proteção dos seus dados pessoais. Por isso, nossa Política de Privacidade e Tratamento de Dados está em constante melhoria e atualização, e você pode baixá-la clicando <Link to="/public/PoliticaDePrivacidadeNectus.pdf" className="link" target="_blank"  rel="noopener noreferrer" locale={false} download>aqui</Link>.
                 </p>
                 <p className='s2-text'>
                     A Nectus é a sua parceira, para mais dúvidas, sugestões, sobre a nossa política de privacidade, entre em contato com o nosso time de privacidade em privacidade@nectusapp.com!
