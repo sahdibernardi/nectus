@@ -23,7 +23,7 @@ function Terms() {
                 </span>
                 </span>
                 <p className='s2-text'>
-                    Nossos Termos e Condições Gerais de Uso do site estão em constantemente melhoria para melhor atendê-los! Você pode baixá-los clicando <Link to="/public/TermosDeUsoNectus.pdf" download target="_blank" className="link">aqui</Link>.
+                    Nossos Termos e Condições Gerais de Uso do site estão em constantemente melhoria para melhor atendê-los! Você pode baixá-los clicando <Link to="/TermosDeUsoNectus.pdf" className="link" target="_blank"  rel="noopener noreferrer" locale={false} download>aqui</Link>.
                 </p>
                 <p className='s2-text'>
                     A Nectus é a sua parceira. Para mais dúvidas ou sugestões, sobre os nossos Termos de Uso, entre em contato com o nosso suporte em suporte@nectusapp.com!
